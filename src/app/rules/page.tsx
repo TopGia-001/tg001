@@ -226,9 +226,9 @@ export default function RulesPage() {
                 <Image src="/assets/bg-simple-mobile.webp" alt="BG Mobile" fill className="object-cover object-top" priority />
             </div>
 
-            <header className="md:hidden bg-[#b91c1c] text-black px-4 py-2 flex justify-between items-center shadow-lg z-50 relative border-b border-red-900/30 shrink-0 h-[45px]">
+            <header className="md:hidden bg-[#b91c1c] text-white px-4 py-2 flex justify-between items-center shadow-lg z-50 relative border-b border-red-900/30 shrink-0 h-[45px]">
                 <div className="flex items-center gap-2">
-                    <Home className="w-5 h-5 text-black" />
+                    <Home className="w-5 h-5 text-white" href="/"/>
                     <span className="font-bold text-[10px] uppercase bg-black/20 px-2 py-1 rounded">THỂ LỆ CHƯƠNG TRÌNH</span>
                 </div>
                 <div className="flex items-center gap-2">

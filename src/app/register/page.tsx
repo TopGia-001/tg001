@@ -77,7 +77,7 @@ export default function RegisterPage() {
             {/* HEADER GIỮ NGUYÊN */}
             <header className="md:hidden bg-[#b91c1c] text-white px-4 py-3 flex justify-between items-center shadow-lg z-50 relative border-b border-red-900/30 shrink-0 h-[50px]">
                 <div className="flex items-center gap-2">
-                    <Home className="w-6 h-6 text-white/90" />
+                    <Home className="w-5 h-5 text-white" href="/"/>
                     <span className="font-bold text-[10px] uppercase bg-black/20 px-2 py-1 rounded">Trang chủ</span>
                 </div>
                 <div className="flex items-center gap-3">

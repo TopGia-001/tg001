@@ -66,7 +66,6 @@ export default function BottomNavbar({ hideDecor = false }: { hideDecor?: boolea
     );
 }
 
-// --- COMPONENT NAVITEM (Mobile: Icon Trên - Desktop: Icon Trái) ---
 interface NavItemProps {
     icon: React.ReactNode;
     label: React.ReactNode;
