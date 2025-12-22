@@ -14,7 +14,7 @@ export default function LandingPage() {
 
             <div className="hidden md:flex fixed inset-0 z-0 w-full h-full justify-center items-center overflow-hidden">
                 <Image
-                    src="/assets/bg-desktop.png"
+                    src="/assets/bg-desktop.webp"
                     alt="Background Desktop"
                     fill
                     className="object-cover object-top"
@@ -33,7 +33,7 @@ export default function LandingPage() {
             <div className="md:hidden relative w-full h-screen overflow-hidden bg-black">
 
                 <Image
-                    src="/assets/bg-mobile.png"
+                    src="/assets/bg-mobile.webp"
                     alt="Background Mobile"
                     fill
                     className="object-cover object-top"

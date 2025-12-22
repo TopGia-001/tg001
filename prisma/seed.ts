@@ -1,4 +1,5 @@
 // prisma/seed.ts
+/* eslint-disable @typescript-eslint/no-explicit-any */
 // eslint-disable-next-line @typescript-eslint/no-require-imports
 const { PrismaClient } = require('@prisma/client');
 // eslint-disable-next-line @typescript-eslint/no-require-imports
@@ -14,11 +15,11 @@ async function main() {
     Papa.parse(csvFile, {
         header: true,
         skipEmptyLines: true,
-        complete: async (results) => {
+        complete: async (results: any) => {
             console.log(`Đã đọc ${results.data.length} dòng từ file CSV...`);
 
             const dataToInsert = results.data
-                .map((item) => {
+                .map((item: any) => {
                     const rawCode = item.code || item.Code || item.CODE;
 
                     if (!rawCode) return null;

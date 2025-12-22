@@ -1,4 +1,5 @@
 "use client";
+/* eslint-disable @typescript-eslint/no-explicit-any */
 
 import React, { useState } from 'react';
 import Image from 'next/image';
@@ -14,8 +15,8 @@ const registerSchema = z.object({
     phone: z.string().regex(/^[0-9]{10}$/, "SĐT phải gồm 10 chữ số"),
     dob: z.string().regex(/^(0[1-9]|[12][0-9]|3[01])[- /.](0[1-9]|1[012])[- /.](19|20)\d\d$/, "Định dạng đúng: DD/MM/YYYY"),
     address: z.string().min(1, "Vui lòng nhập địa chỉ"),
-    terms: z.literal(true, {
-        errorMap: () => ({ message: "Bạn cần đồng ý điều khoản" }),
+    terms: z.boolean().refine((val) => val === true, {
+        message: "Bạn cần đồng ý điều khoản",
     }),
 });
 
