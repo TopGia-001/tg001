@@ -37,10 +37,10 @@ export default function PromotionalProductsPage() {
         <div className="h-screen flex flex-col font-sans bg-[#8B0000] relative overflow-hidden">
 
             <div className="hidden md:block fixed inset-0 z-0 w-full h-full">
-                <Image src="/assets/bg-simple.png" alt="BG Desktop" fill className="object-cover object-top" priority />
+                <Image src="/assets/bg-simple.webp" alt="BG Desktop" fill className="object-cover object-top" priority />
             </div>
             <div className="md:hidden fixed top-[45px] left-0 right-0 bottom-0 z-0 w-full">
-                <Image src="/assets/bg-simple-mobile.png" alt="BG Mobile" fill className="object-cover object-top" priority />
+                <Image src="/assets/bg-simple-mobile.webp" alt="BG Mobile" fill className="object-cover object-top" priority />
             </div>
 
             <header className="md:hidden bg-[#b91c1c] text-white px-4 py-2 flex justify-between items-center shadow-lg z-50 relative border-b border-red-900/30 shrink-0 h-[45px]">

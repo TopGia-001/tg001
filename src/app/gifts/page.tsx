@@ -4,12 +4,12 @@ import { Home, MoreHorizontal, X } from 'lucide-react';
 import BottomNavbar from "@/src/component/bottomNavbar";
 
 const GIFTS_LIST = [
-    { id: 1, img: "/assets/gifts/xemay.png" },
-    { id: 2, img: "/assets/gifts/hutbui.png" },
-    { id: 3, img: "/assets/gifts/maygiat.png" },
-    { id: 4, img: "/assets/gifts/tivi.png" },
-    { id: 5, img: "/assets/gifts/locnuoc.png" },
-    { id: 6, img: "/assets/gifts/lockk.png" },
+    { id: 1, img: "/assets/Gifts/xemay.png" },
+    { id: 2, img: "/assets/Gifts/hutbui.png" },
+    { id: 3, img: "/assets/Gifts/maygiat.png" },
+    { id: 4, img: "/assets/Gifts/tivi.png" },
+    { id: 5, img: "/assets/Gifts/locnuoc.png" },
+    { id: 6, img: "/assets/Gifts/lockk.png" },
 ];
 
 export default function GiftsListPage() {
@@ -18,10 +18,10 @@ export default function GiftsListPage() {
 
             {/* BACKGROUND (Fixed) */}
             <div className="hidden md:block fixed inset-0 z-0 w-full h-full">
-                <Image src="/assets/bg-simple.png" alt="BG Desktop" fill className="object-cover object-top" priority />
+                <Image src="/assets/bg-simple.webp" alt="BG Desktop" fill className="object-cover object-top" priority />
             </div>
             <div className="md:hidden fixed top-[45px] left-0 right-0 bottom-0 z-0 w-full">
-                <Image src="/assets/bg-simple-mobile.png" alt="BG Mobile" fill className="object-cover object-top" priority />
+                <Image src="/assets/bg-simple-mobile.webp" alt="BG Mobile" fill className="object-cover object-top" priority />
             </div>
 
             {/* MOBILE HEADER */}
