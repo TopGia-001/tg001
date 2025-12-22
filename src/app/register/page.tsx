@@ -68,10 +68,10 @@ export default function RegisterPage() {
         <div className="min-h-screen flex flex-col font-sans bg-[#8B0000] relative overflow-hidden">
             {/* BACKGROUND GIỮ NGUYÊN */}
             <div className="hidden md:block fixed inset-0 z-0 w-full h-full">
-                <Image src="/assets/bg-no-prizes.png" alt="BG" fill className="object-cover object-top" priority />
+                <Image src="/assets/bg-no-prizes.webp" alt="BG" fill className="object-cover object-top" priority />
             </div>
             <div className="md:hidden fixed top-[50px] left-0 right-0 bottom-0 z-0 w-full">
-                <Image src="/assets/bg-no-prizes-mobile.png" alt="BG" fill className="object-cover object-top" priority />
+                <Image src="/assets/bg-no-prizes-mobile.webp" alt="BG" fill className="object-cover object-top" priority />
             </div>
 
             {/* HEADER GIỮ NGUYÊN */}
@@ -183,30 +183,30 @@ export default function RegisterPage() {
 
                         {status === 'SUCCESS' && (
                             <>
-                                <Image src="/assets/code-sucess.png" alt="Success" width={600} height={400}
+                                <Image src="/assets/code-sucess.webp" alt="Success" width={600} height={400}
                                        className="hidden md:block w-full h-auto object-contain"/>
-                                <Image src="/assets/code-sucess-mobile.png" alt="Success" width={400} height={500} className="md:hidden w-full h-auto object-contain" />
+                                <Image src="/assets/code-sucess-mobile.webp" alt="Success" width={400} height={500} className="md:hidden w-full h-auto object-contain" />
                             </>
                         )}
 
                         {status === 'USED' && (
                             <>
-                                <Image src="/assets/code-used.png" alt="Used" width={600} height={400} className="hidden md:block w-full h-auto object-contain" />
-                                <Image src="/assets/code-used-mobile.png" alt="Used" width={400} height={500} className="md:hidden w-full h-auto object-contain" />
+                                <Image src="/assets/code-used.webp" alt="Used" width={600} height={400} className="hidden md:block w-full h-auto object-contain" />
+                                <Image src="/assets/code-used-mobile.webp" alt="Used" width={400} height={500} className="md:hidden w-full h-auto object-contain" />
                             </>
                         )}
 
                         {status === 'INVALID' && (
                             <>
-                                <Image src="/assets/code-invalid.png" alt="Invalid" width={600} height={400} className="hidden md:block w-full h-auto object-contain" />
-                                <Image src="/assets/code-invalid-mobile.png" alt="Invalid" width={400} height={500} className="md:hidden w-full h-auto object-contain" />
+                                <Image src="/assets/code-invalid.webp" alt="Invalid" width={600} height={400} className="hidden md:block w-full h-auto object-contain" />
+                                <Image src="/assets/code-invalid-mobile.webp" alt="Invalid" width={400} height={500} className="md:hidden w-full h-auto object-contain" />
                             </>
                         )}
 
                         {status === 'EXCEED' && (
                             <>
-                                <Image src="/assets/exceed-limit.png" alt="Exceed" width={600} height={400} className="hidden md:block w-full h-auto object-contain" />
-                                <Image src="/assets/exceed-limit-mobile.png" alt="Exceed" width={400} height={500} className="md:hidden w-full h-auto object-contain" />
+                                <Image src="/assets/exceed-limit.webp" alt="Exceed" width={600} height={400} className="hidden md:block w-full h-auto object-contain" />
+                                <Image src="/assets/exceed-limit-mobile.webp" alt="Exceed" width={400} height={500} className="md:hidden w-full h-auto object-contain" />
                             </>
                         )}
 
