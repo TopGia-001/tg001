@@ -11,8 +11,27 @@ import BottomNavbar from "@/src/component/bottomNavbar";
 export default function LandingPage() {
     return (
         <div className="min-h-screen flex flex-col font-sans bg-[#8B0000] relative overflow-hidden">
+            <style jsx global>{`
+              @media (max-aspect-ratio: 4/3) {
+                .bg-desktop {
+                  display: none !important;
+                }
+                .bg-mobile {
+                  display: block !important;
+                }
+              }
+            
+              @media (min-aspect-ratio: 4/3) {
+                .bg-desktop {
+                  display: flex !important;
+                }
+                .bg-mobile {
+                  display: none !important;
+                }
+              }
+            `}</style>
 
-            <div className="hidden hover:flex fixed inset-0 z-0 w-full h-full justify-center items-center overflow-hidden">
+            <div className="bg-desktop fixed inset-0 z-0 w-full h-full justify-center items-center overflow-hidden">
                 <Image
                     src="/assets/bg-desktop.webp"
                     alt="Background Desktop"
@@ -30,7 +49,7 @@ export default function LandingPage() {
                 </div>
             </div>
 
-            <div className="hover:hidden relative w-full h-screen overflow-hidden bg-black">
+            <div className="bg-mobile relative w-full h-screen overflow-hidden bg-black">
                 <Image
                     src="/assets/bg-mobile.webp"
                     alt="Background Mobile"
