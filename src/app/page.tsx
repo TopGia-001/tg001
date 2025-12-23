@@ -56,7 +56,7 @@ export default function LandingPage() {
                     src="/assets/bg-mobile.webp"
                     alt="Background Mobile"
                     fill
-                    className="object-cover object-top"
+                    className="object-cover object-[center_top]"
                     priority
                 />
 
