@@ -4,6 +4,7 @@ import React from 'react';
 import Image from 'next/image';
 import { Home, MoreHorizontal, X } from 'lucide-react';
 import BottomNavbar from "@/src/component/bottomNavbar";
+import Link from "next/link";
 
 // Thư viện render Markdown
 import ReactMarkdown from 'react-markdown';
