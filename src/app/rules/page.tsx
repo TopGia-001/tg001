@@ -255,7 +255,7 @@ export default function RulesPage() {
                     </h1>
                 </div>
 
-                <div className="flex-1 w-full max-w-[1200px] px-4 md:px-0 overflow-hidden flex flex-col relative z-10 text-black">
+                <div className="flex-1 w-full max-w-[1200px] px-4 overflow-hidden flex flex-col relative z-10 text-black">
 
                     <div className="bg-white w-full h-full rounded-3xl md:rounded-3xl shadow-2xl overflow-y-auto p-5 md:p-10 scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-100">
 
