@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import { Home, MoreHorizontal, X } from 'lucide-react';
 import BottomNavbar from "@/src/component/bottomNavbar";
+import Link from "next/link";
 
 const PROMOTIONAL_PRODUCTS = [
     { id: 1, name: "Thùng 30 gói 3 màu", img: "/assets/Links/30-3mau.png" },
