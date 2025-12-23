@@ -43,7 +43,9 @@ export default function LandingPage() {
                 <header
                     className="absolute top-0 left-0 w-full bg-[#b91c1c] text-white px-4 py-3 flex justify-between items-center shadow-lg z-20 border-b border-red-900/30 h-[50px]">
                     <div className="flex items-center gap-2">
-                        <Home className="w-5 h-5 text-white" href="/"/>
+                        <Link href="/">
+                          <Home className="w-5 h-5 text-white" />
+                        </Link>
                         <span className="font-bold text-[10px] uppercase bg-black/20 px-2 py-1 rounded">
                             Trang chủ
                         </span>
