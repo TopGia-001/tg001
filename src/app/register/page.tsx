@@ -8,6 +8,7 @@ import BottomNavbar from "@/src/component/bottomNavbar";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
+import Link from "next/link";
 
 const registerSchema = z.object({
     rewardCode: z.string().min(1, "Vui lòng nhập mã dự thưởng"),
