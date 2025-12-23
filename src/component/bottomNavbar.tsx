@@ -5,7 +5,6 @@ import {
     FileText,
     Gift, HomeIcon,
     List,
-    ShoppingBag
 } from 'lucide-react';
 
 export default function BottomNavbar({ hideDecor = false }: { hideDecor?: boolean }) {
@@ -13,10 +12,10 @@ export default function BottomNavbar({ hideDecor = false }: { hideDecor?: boolea
         <>
             {!hideDecor && (
                 <>
-                    <div className="hidden md:block fixed bottom-[60px] md:bottom-0 left-0 z-50 w-20 md:w-56 pointer-events-none">
+                    <div className="hidden md:hidden xl:block fixed bottom-[60px] md:bottom-0 left-0 z-50 w-20 md:w-56 pointer-events-none">
                         <Image src="/assets/decor-left.png" alt="Decor Left" width={300} height={300} className="w-full h-auto object-contain" />
                     </div>
-                    <div className="hidden md:block fixed bottom-[60px] md:bottom-0 right-0 z-50 w-24 md:w-64 pointer-events-none">
+                    <div className="hidden md:hidden xl:block fixed bottom-[60px] md:bottom-0 right-0 z-50 w-24 md:w-64 pointer-events-none">
                         <Image src="/assets/decor-right.png" alt="Decor Right" width={300} height={300} className="w-full h-auto object-contain" />
                     </div>
                 </>

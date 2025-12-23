@@ -15,20 +15,20 @@ import rehypeRaw from "rehype-raw";
 const RULES_CONTENT = `
 # **THỂ LỆ CHƯƠNG TRÌNH KHUYẾN MẠI**
 
-(Kèm theo công văn số    /2024/ĐKKM-TOPGIA ngày 13/12/2024 của 
-Công ty TNHH Thương Mại Xuất Nhập Khẩu Fani)
-
+(Kèm theo công văn số 1712 /2025/ĐKKM-FANI ngày 17/12/2025 của Công ty TNHH Thương Mại Xuất Nhập Khẩu Fani)  
+\\
 **1. Tên chương trình khuyến mại:**
   \\
-RINH TOPGIA - LỘC ĐẦY NHÀ
-
+RINH TOPGIA - LỘC ĐẦY NHÀ  
+\\
 **2. Hàng hóa, dịch vụ được khuyến mại:**  \\
-Các sản phẩm thuộc danh mục hàng hóa khăn giấy, nước giặt mang nhãn hiệu TOPGIA do Công ty TNHH Thương Mại Xuất Nhập Khẩu Fani sản xuất, phân phối theo Phụ lục 01 và Phụ lục 02 đính kèm văn bản này.
-Số lượng hàng hóa, dịch vụ: 1,092,380 sản phẩm.
-Tổng giá trị hàng được khuyến mại (VNĐ): 151,013,750.000 VNĐ (Bằng chữ: Một trăm năm mươi mốt tỷ, không trăm mười ba triệu, bảy trăm năm mươi nghìn đồng)
-
+Các sản phẩm thuộc danh mục hàng hóa khăn giấy, nước giặt mang nhãn hiệu TOPGIA do Công ty TNHH Thương Mại Xuất Nhập Khẩu Fani sản xuất, phân phối theo Phụ lục 01 và Phụ lục 02 đính kèm văn bản này.  
+Số lượng hàng hóa, dịch vụ ước tính: 175,000 sản phẩm.  
+Tổng giá trị hàng được khuyến mại ước tính (VNĐ): 35,825,000,000 VNĐ (Bằng chữ: Ba mươi lăm tỷ tám trăm hai mươi lăm triệu đồng)  
+\\
 **3. Thời gian khuyến mại:**
-
+Thời gian đặt thiệp có mã dự thưởng vào trong thùng sản phẩm theo phụ lục: Từ 0h00 ngày 05/01/2026 đến 23h59 ngày 02/02/2026  
+\\
 **4. Địa bàn (phạm vi) khuyến mại:**  \\
 Hệ thống sàn thương mại điện tử của Công ty TNHH Thương Mại Xuất Nhập Khẩu Fani trên toàn lãnh thổ Việt Nam.  
 \\
@@ -47,20 +47,19 @@ Danh sách hệ thống sàn thương mại điện tử:
 | Top Gia Hồ Chí Minh | https://www.tiktok.com/@topgiahcm |
 | TOPGIAHN | https://www.tiktok.com/@topgiahn?_t=8s4nollCBgA&_r=1 |
 | TOP GIA VIET NAM | https://www.tiktok.com/@topgiadoisong |
-| TopGiaKids HN | https://shopee.vn/topgiakidshn |
-| TopGiaKids HCM Store | https://shopee.vn/topgiakids.hcm |
 
 **5. Hình thức khuyến mại:**
-Chương trình khuyến mại mang tính may rủi - Mã dự thưởng online
-
+Chương trình khuyến mại mang tính may rủi  
+\\
 **6. Khách hàng của chương trình khuyến mại (đối tượng hưởng khuyến mại):**  \\
-Các đối tượng được tham gia chương trình khuyến mại: Tất cả khách hàng trên toàn quốc mua hàng hóa khuyến mại trên sàn thương mại điện tử của Công ty TNHH Thương Mại Xuất Nhập Khẩu Fani quy định tại Mục 4 Thể lệ, các hàng hóa khuyến mại nêu tại Mục 2 văn bản này trong thời gian khuyến mại. 
-Các đối tượng không được tham gia chương trình khuyến mại là người lao động đang làm việc cho Công ty TNHH Thương Mại Xuất Nhập Khẩu Fani.  \\
+Các đối tượng được tham gia chương trình khuyến mại:  
+Tất cả khách hàng trên toàn quốc mua hàng hóa khuyến mại trên sàn thương mại điện tử của Công ty TNHH Thương Mại Xuất Nhập Khẩu Fani quy định tại Mục 4 Thể lệ, các hàng hóa khuyến mại nêu tại Mục 2 văn bản này trong thời gian khuyến mại.   
+Các đối tượng không được tham gia chương trình khuyến mại là người lao động đang làm việc cho Công ty TNHH Thương Mại Xuất Nhập Khẩu Fani.  
+\\
 **7. Cơ cấu giải thưởng:**
-<table style="width: 100%; border-collapse: collapse; border: 1px solid black;">
+<table style="width: 100%; border-collapse: collapse; border: 1px solid black; text-align: center;">
   <thead>
     <tr>
-      <th style="border: 1px solid black; padding: 8px;">STT</th>
       <th style="border: 1px solid black; padding: 8px;">Cơ cấu giải thưởng</th>
       <th style="border: 1px solid black; padding: 8px;">Nội dung giải thưởng (chi tiết nội dung và ký mã hiệu từng giải thưởng)</th>
       <th style="border: 1px solid black; padding: 8px;">Trị giá giải thưởng (VNĐ)</th>
@@ -70,150 +69,322 @@ Các đối tượng không được tham gia chương trình khuyến mại là
   </thead>
   <tbody>
     <tr>
+      <td style="border: 1px solid black; padding: 8px;">Giải thưởng xe máy điện</td>
+      <td style="border: 1px solid black; padding: 8px;">Xe máy điện Vinfast Feliz 2025</td>
+      <td style="border: 1px solid black; padding: 8px;">25,900,000</td>
       <td style="border: 1px solid black; padding: 8px;">1</td>
-      <td style="border: 1px solid black; padding: 8px;">Xe máy điện</td>
-      <td style="border: 1px solid black; padding: 8px;">Xe máy điện Vinfast vero X</td>
-      <td style="border: 1px solid black; padding: 8px;">34,900,000</td>
+      <td style="border: 1px solid black; padding: 8px;">25,900,000</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">Giải thưởng máy hút bụi</td>
+      <td style="border: 1px solid black; padding: 8px;">Máy hút bụi lau nhà cầm tay Roborock F25 ACE Combo</td>
+      <td style="border: 1px solid black; padding: 8px;">12,800,000</td>
       <td style="border: 1px solid black; padding: 8px;">2</td>
-      <td style="border: 1px solid black; padding: 8px;">69,800,000</td>
+      <td style="border: 1px solid black; padding: 8px;">25,600,000</td>
     </tr>
     <tr>
-      <td style="border: 1px solid black; padding: 8px;">2</td>
-      <td style="border: 1px solid black; padding: 8px;">Điện thoại</td>
-      <td style="border: 1px solid black; padding: 8px;">Iphone 17 256G</td>
-      <td style="border: 1px solid black; padding: 8px;">24,990,000</td>
+      <td style="border: 1px solid black; padding: 8px;">Giải thưởng máy giặt/sấy</td>
+      <td style="border: 1px solid black; padding: 8px;">Máy Giặt/Sấy Samsung Inverter 9.5 Kg WD95T4046CE/SV</td>
+      <td style="border: 1px solid black; padding: 8px;">8,590,000</td>
       <td style="border: 1px solid black; padding: 8px;">3</td>
-      <td style="border: 1px solid black; padding: 8px;">74,970,000</td>
+      <td style="border: 1px solid black; padding: 8px;">25,770,000</td>
     </tr>
     <tr>
+      <td style="border: 1px solid black; padding: 8px;">Giải thưởng tivi</td>
+      <td style="border: 1px solid black; padding: 8px;">Smart Tivi QLED Samsung AI 4K 65 inch QA65Q8F5</td>
+      <td style="border: 1px solid black; padding: 8px;">15,990,000</td>
       <td style="border: 1px solid black; padding: 8px;">3</td>
-      <td style="border: 1px solid black; padding: 8px;">Tivi</td>
-      <td style="border: 1px solid black; padding: 8px;">QLED Tivi 4K 75'' Samsung QA75Q6FAAKXXV Smart TV</td>
-      <td style="border: 1px solid black; padding: 8px;">19,490,000</td>
-      <td style="border: 1px solid black; padding: 8px;">3</td>
-      <td style="border: 1px solid black; padding: 8px;">58,470,000</td>
+      <td style="border: 1px solid black; padding: 8px;">47,970,000</td>
     </tr>
     <tr>
-      <td style="border: 1px solid black; padding: 8px;">4</td>
-      <td style="border: 1px solid black; padding: 8px;">Máy lọc nước</td>
+      <td style="border: 1px solid black; padding: 8px;">Giải thưởng máy lọc nước</td>
       <td style="border: 1px solid black; padding: 8px;">Máy lọc nước nóng lạnh Kangaroo KG10A17</td>
       <td style="border: 1px solid black; padding: 8px;">5,499,000</td>
-      <td style="border: 1px solid black; padding: 8px;">3</td>
-      <td style="border: 1px solid black; padding: 8px;">16,497,000</td>
+      <td style="border: 1px solid black; padding: 8px;">2</td>
+      <td style="border: 1px solid black; padding: 8px;">10,998,000</td>
     </tr>
     <tr>
-      <td style="border: 1px solid black; padding: 8px;">5</td>
-      <td style="border: 1px solid black; padding: 8px;">Máy lọc không khí</td>
+      <td style="border: 1px solid black; padding: 8px;">Giải thưởng máy lọc không khí</td>
       <td style="border: 1px solid black; padding: 8px;">Xiaomi Smart Air Purifier 4 máy lọc không khí diện tích 40 m²</td>
-      <td style="border: 1px solid black; padding: 8px;">3,600,000</td>
-      <td style="border: 1px solid black; padding: 8px;">10</td>
-      <td style="border: 1px solid black; padding: 8px;">36,000,000</td>
+      <td style="border: 1px solid black; padding: 8px;">3,390,000</td>
+      <td style="border: 1px solid black; padding: 8px;">9</td>
+      <td style="border: 1px solid black; padding: 8px;">30,510,000</td>
     </tr>
     <tr>
-      <td colspan="4" style="border: 1px solid black; padding: 8px; font-weight: bold; text-align: center;">Tổng</td>
+      <td colspan="3" style="border: 1px solid black; padding: 8px; font-weight: bold; text-align: center;">Tổng</td>
       <td style="border: 1px solid black; padding: 8px; font-weight: bold;">21</td>
-      <td style="border: 1px solid black; padding: 8px; font-weight: bold;">255,737,000</td>
+      <td style="border: 1px solid black; padding: 8px; font-weight: bold;">166,748,000</td>
     </tr>
   </tbody>
 </table>
 
-- Tổng giá trị giải thưởng trong chương trình khuyến mại: 255,737,000 VNĐ (Bằng chữ: Hai trăm năm mươi lăm triệu, bảy trăm ba mươi bảy nghìn đồng).
+- Tổng giá trị giải thưởng trong chương trình khuyến mại: 166,748,000 VNĐ (Bằng chữ: Một trăm sáu mươi sáu triệu bảy trăm bốn mươi tám nghìn đồng).
 - Giải thưởng chỉ bao gồm trị giá của giải thưởng mà không bao gồm các chi phí khác.
 - Giải thưởng không được chuyển nhượng lại cho bên thứ ba.
-- Tổng giá trị giải thưởng so với tổng giá trị hàng hóa, dịch vụ khuyến mãi: 0.16%
+- Tổng giá trị giải thưởng so với tổng giá trị hàng hóa, dịch vụ khuyến mãi: 0.47%
 - Các giải thưởng không được quy đổi thành tiền mặt.
 
-**8. Nội dung chi tiết thể lệ chương trình khuyến mại:**
-
-8.1 Điều kiện, cách thức, thủ tục cụ thể khách hàng phải thực hiện để được tham gia chương trình khuyến mại:
-
-BƯỚC 1: Trong thời gian diễn ra chương trình, khách hàng mua Sản phẩm khuyến mại sẽ nhận được một thiệp đặt trong thùng Sản phẩm. Trên thiệp có in mã dự thưởng (bao gồm các ký tự số và chữ) và QR Code dẫn vào Landing Page của chương trình.  
-BƯỚC 2: Khách hàng quét mã QR Code hoặc trực tiếp nhập địa chỉ Landing Page để vào trang chủ chương trình.  
-BƯỚC 3: Sau khi truy cập vào Landing Page, khách hàng bấm nút "Tham gia ngay".  
-BƯỚC 4: Khách hàng điền các thông tin sau để tham gia chương trình:  
-Họ và tên:  
-Số điện thoại:  
-Ngày tháng năm sinh:  
-Nơi sống (Tỉnh/thành phố):  
-Tiếp tục điền Mã khuyến mại được in trên thiệp (ảnh minh họa)  
+**8. Nội dung chi tiết thể lệ chương trình khuyến mại:**  
 \\
-Khách hàng tiếp tục nhấn vào các ô được yêu cầu tại trang đăng ký (áp dụng cho lần đầu tham gia):  
-+ Tôi xác nhận tôi từ 13 tuổi trở lên và trường hợp dưới 18 tuổi, tôi xác nhận rằng tôi đã có sự chấp thuận của cha mẹ hoặc người nuôi dưỡng hợp pháp của tôi để tham gia chương trình trên cơ sở tôi đã đọc, hiểu, đồng ý với các Điều kiện và Điều khoản áp dụng, Chính sách bảo mật, và đồng ý cung cấp thông tin cá nhân để đăng ký tham gia chương trình. (Khách hàng cần nhấn vào mục này để tiếp tục tham gia chương trình. Trường hợp khách hàng không đồng ý cung cấp thông tin cá nhân để đăng ký tham gia chương trình thì khách hàng không thể tiếp tục tham gia chương trình khuyến mại của TopGia).  
-+ Tôi đồng ý cho phép công ty sử dụng thông tin của tôi để gửi các thông tin quảng cáo và chương trình khuyến mại kế tiếp của công ty (Khách hàng có thể nhấn vào mục này để thể hiện đồng ý, hoặc không nhấn vào mục này để thể hiện không đồng ý để tiếp tục tham gia chương trình).  
-+ Và nhấn "Tiếp tục" để có cơ hội nhận thưởng.(ảnh minh họa)  
-\\
-Trong vòng 1p sau khi gửi Mã dự thưởng, khách hàng nhận được thông báo từ Landing Page:  
+**8.1 Điều kiện, cách thức, thủ tục cụ thể khách hàng phải thực hiện để được tham gia chương trình khuyến mại:**
 
-| STT | Trường hợp | Nội dung thông báo từ Landing Page |
-| :--- | :--- | :--- |
-| 1 | Trường hợp gửi Mã dự thưởng thành công | Hình ảnh minh họa |
-| 2 | Trường hợp Mã dự thưởng đã được nhập vào hệ thống trước đó | Hình ảnh minh họa |
-| 3 | Trường hợp nhận sai Mã dự thưởng | Hình ảnh minh họa |
-| 4 | Nếu khách hàng nhập sai Mã dự thưởng từ lần thứ 03 | Hình ảnh minh họa |
+**BƯỚC 1:** Trong thời gian khuyến mại từ 0h00 ngày 05/01/2026 đến 23h59 ngày 02/02/2026, khách hàng mua một sản phẩm trong Sản phẩm Khuyến mại tại Mục 2 trên các nền tảng thuộc Mục 4 Thể lệ này. Trong mỗi thùng đựng sản phẩm sẽ có một tấm thiệp.   
+**BƯỚC 2:** Sau tối đa 05 ngày khách hàng nhận Sản phẩm khuyến mại sẽ thấy tấm thiệp mặt trước là QRCode dẫn vào website chương trình khuyến mãi của Công ty. Mã dự thưởng được in phía mặt trong của thiệp là mã riêng biệt, tương ứng với 01 (một) lần trải nghiệm và tham gia chương trình. Mã dự thưởng sẽ gồm 10 ký tự bao gồm cả chữ và số ngẫu nhiên để tham gia Chương trình khuyến mại của Công ty tổ chức (Sau đây gọi tắt là “Chương trình”). Mã dự thưởng trên thiệp có hiệu lực đến hết ngày 7/2/2026.
+<div class="md:hidden flex flex-col items-center gap-6 my-8">
+  <img src="/assets/rules-1.png" alt="Mobile Rules 1" class="w-32 h-auto object-contain" />
+  <img src="/assets/rules-2.png" alt="Mobile Rules 2" class="w-32 h-auto object-contain" />
+</div>
 
-\\
-Khách hàng nhập Mã dự thưởng thành công trong vòng tối đa 1 phút, Landing Page sẽ hiển thị thông báo:
-| STT | Trường hợp | Thông báo kết quả trúng thưởng |
-| :--- | :--- | :--- |
-| 1 | Khách hàng không trúng thưởng | "Rất tiếc bạn chưa trúng thưởng. Hãy tiếp tục nhập thêm mã để có cơ hội trúng thưởng!" (Ảnh minh họa) |
-| 2 | Trường hợp Mã dự thưởng đã được nhập vào hệ thống trước đó | Chúc mừng! Bạn đã trúng..... BTC sẽ liên hệ với bạn qua số điện thoại (...... - số dùng để gọi thông báo trúng thưởng) để hướng dẫn thủ tục nhận thưởng trong vòng 15 ngày. (Ảnh minh họa) |
+<div class="hidden md:flex justify-center my-8">
+  <img src="/assets/rules-desktop.png" alt="Desktop Rules" class="md:w-[500px] h-auto object-contain" />
+</div>
 
+**BƯỚC 3:** Khách hàng quét mã QR ở phía sau thiệp hoặc trực tiếp truy cập vào địa chỉ website https://locdaynha.topgiahomecare.vn/ để vào trang khuyến mại của TOPGIA (Sau đây gọi là “website”). Sau khi truy cập, khách hàng chọn tham gia chương trình bằng cách nhấn vào nút “THAM GIA NGAY” và điền các thông tin sau: Mã dự thưởng, Họ và tên, Số điện thoại, Năm sinh, Địa chỉ và chọn các sản phẩm đã mua.  
+Mỗi thiệp được gắn một Mã dự thưởng duy nhất, bao gồm 10 ký tự bao gồm chữ và số. Mã dự thưởng được hệ thống tạo ngẫu nhiên, và tương ứng với một cơ hội tham gia bốc thăm trúng thưởng.
+<div class="flex justify-center gap-4 md:gap-10 my-8">
+    <img src="/assets/rules-3.png" alt="Mô tả ảnh 3" class="w-32 md:w-50 h-auto object-contain" />
+</div>
 
+**BƯỚC 4:** Khách hàng tiếp tục nhấn vào các ô được yêu cầu tại trang đăng ký:  
++ Tôi xác nhận tham gia chương trình trên cơ sở tôi đã đọc, hiểu, đồng ý với các Điều kiện và Điều khoản áp dụng, Chính sách bảo mật, và đồng ý cung cấp thông tin cá nhân để đăng ký tham gia chương trình. (Khách hàng cần nhấn vào mục này để tiếp tục tham gia chương trình.  
+Trường hợp khách hàng không đồng ý cung cấp thông tin cá nhân để đăng ký tham gia chương trình thì khách hàng không thể tiếp tục tham gia chương trình khuyến mại của TopGia).  
++ Và nhấn "ĐĂNG KÝ BỐC THĂM NGAY” để có cơ hội nhận thưởng.  
+
+Trong vòng 1p sau khi nhập Mã dự thưởng, khách hàng nhận được thông báo từ Website:  
+<table style="width: 100%; border-collapse: collapse; border: 1px solid black;">
+  <thead>
+    <tr>
+      <th style="border: 1px solid black; padding: 8px; text-align: center;">STT</th>
+      <th style="border: 1px solid black; padding: 8px; text-align: center;">Trường hợp</th>
+      <th style="border: 1px solid black; padding: 8px; text-align: center;">Nội dung thông báo từ Landing Page</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px; text-align: center;">1</td>
+      <td style="border: 1px solid black; padding: 8px; text-align: center;">Trường hợp gửi Mã dự thưởng thành công</td>
+      <td style="border: 1px solid black; padding: 8px; ">Chúc mừng! Mã dự thưởng của bạn đã được gửi thành công.</br> Kết quả bốc thăm may mắn đợt 1 sẽ được công bố vào 17h ngày 12/01/2026 trên fanpage TopGia và website chương trình. (hệ thống trả kết quả từ 0h00 ngày 05/01/2026 đến 23h59 ngày 11/01/2026)</br> Kết quả bốc thăm may mắn đợt 2 sẽ được công bố vào 17h ngày 08/02/2026 trên fanpage TopGia và website chương trình.(hệ thống trả kết quả từ 0h00 ngày 12/01/2026 đến 23h59 ngày 07/02/2026</br> Đừng quên theo dõi các kênh chính thức để cập nhật kết quả và những thông tin mới nhất từ TopGia nhé!</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px; text-align: center;">2</td>
+      <td rowspan="3" style="border: 1px solid black; padding: 8px; text-align: center;">Trường hợp gửi Mã dự thưởng không thành công</td>
+      <td style="border: 1px solid black; padding: 8px;">Trường hợp Mã dự thưởng đã được nhập vào hệ thống trước đó:</br>Mã dự thưởng đã được sử dụng trước đó!</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px; text-align: center;">3</td>
+      <td style="border: 1px solid black; padding: 8px;">Trường hợp nhận sai Mã dự thưởng:</br>Mã dự thưởng không đúng!</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px; text-align: center;">4</td>
+      <td style="border: 1px solid black; padding: 8px;">Nếu khách hàng nhập sai Mã dự thưởng từ lần thứ 03:</br>Bạn đã nhập quá số lần cho phép!</td>
+    </tr>
+  </tbody>
+</table>
 
 **8.2. Thời gian, cách thức phát hành bằng chứng xác nhận trúng thưởng:**
-- Trong thời gian khuyến mại, khách hàng mua Sản phẩm khuyến mại, quét mã QR Code và nhập mã dự thưởng in trên thiệp để tham gia chương trình.
-- Thời gian xác định kết quả trúng thưởng là thời gian ngay sau đó, khi khách hàng nhấn vào nút “Tham gia ngay” của chương trình và trong thời gian khuyến mại (Từ 08/01/2026 - 10/02/2026).
-- Tổng số lượng Mã dự thượng được phát hành trong chương trình khuyến mại tương ứng với số lượng sản phẩm khuyến mại theo phụ lục đính kèm.
+- Trong thời gian khuyến mại, khách hàng mua Sản phẩm khuyến mại sẽ nhận được thiệp dự thưởng kèm theo sản phẩm. Khách hàng thực hiện quét mã QR Code trên thiệp và nhập Mã dự thưởng in trên thiệp để tham gia chương trình.
+- Tổng số lượng Mã dự thưởng được phát hành trong chương trình khuyến mại tương ứng với số lượng sản phẩm khuyến mại theo Phụ lục đính kèm.
+- Sau khi khách hàng nhập Mã dự thưởng hợp lệ và hoàn tất thông tin theo yêu cầu trên Website của chương trình, hệ thống sẽ ghi nhận thông tin tham gia và gửi thông báo xác nhận đăng ký thành công cho khách hàng.   
+Thông báo này được xem là bằng chứng xác nhận khách hàng đã tham gia chương trình hợp lệ.
+- Thời gian phát hành và tiếp nhận Mã dự thưởng được áp dụng trong suốt thời gian diễn ra chương trình khuyến mại, theo quy định tại Thể lệ chương trình và thông báo công khai trên các kênh chính thức của doanh nghiệp.
 
-**8.3 Quy định về bằng chứng xác định trúng thưởng**
+**8.3. Quy định về bằng chứng xác định trúng thưởng**
+- Mã dự thưởng gồm 10 ký tự ngẫu nhiên cả số và chữ in mặt trong của tấm thiệp được để trong thùng đựng Sản phẩm khuyến mại.  Mã dự thưởng được hệ thống tạo ngẫu nhiên, không trùng lặp và tương ứng với 01 (một) cơ hội tham gia bốc thăm trúng thưởng.
+- Sản phẩm, thẻ cào phải do Công ty TNHH Thương mại xuất nhập khẩu Fani phát hành, trong đó mã dự thưởng phải rõ nét, không bị cạo xóa, chỉnh sửa, rách rời, chắp vá.
+- Tổng số lượng thiệp và mã dự thưởng được phát hành trong chương trình khuyến mại tương ứng với số lượng sản phẩm khuyến mại theo Phụ lục đính kèm.
+
+**8.4. Thời gian, địa điểm và cách thức xác định trúng thưởng**
+- Chương trình khuyến mại được tổ chức trao giải thành 02 (hai) đợt, căn cứ trên thời điểm hệ thống ghi nhận Mã dự thưởng hợp lệ của khách hàng.
+  - Đợt 1: Bao gồm các Mã dự thưởng được hệ thống ghi nhận từ ngày 05/01/2026 đến 23h59 ngày 11/01/2026. Đối với Đợt 1, việc bốc thăm xác định trúng thưởng được thực hiện vào 10h00 ngày 12/01/2026 thông qua hệ thống điện tử hỗ trợ quay số ngẫu nhiên tại địa chỉ https://commentpicker.com/ trước sự chứng kiến của khách hàng và được lập thành biên bản. Kết quả trúng thưởng được công bố chính thức vào 17h00 cùng ngày (12/01/2026) trên các kênh thông tin chính thức của chương trình.  
+FanpageFacebook:  
+https://www.facebook.com/topgiaofficial  
 \\
-Bằng chứng trúng thưởng là một trong những hình ảnh trúng thưởng như bên dưới để xác nhận kết quả trúng thưởng:
-| STT | Giải thưởng khách hàng nhận được | Hình ảnh trúng thưởng |
-| :--- | :--- | :--- |
-| 1 | Chúc mừng! Bạn đã trúng Xe máy điện Vinfast vero X BTC sẽ liên hệ với bạn qua số điện thoại (...... - số dùng để gọi thông báo trúng thưởng) để hướng dẫn thủ tục nhận thưởng trong vòng 15 ngày. |  |
-| 2 | Chúc mừng! Bạn đã trúng Iphone 17 256G BTC sẽ liên hệ với bạn qua số điện thoại (...... - số dùng để gọi thông báo trúng thưởng) để hướng dẫn thủ tục nhận thưởng trong vòng 15 ngày. | |
-| 3 | Chúc mừng! Bạn đã trúng QLED Tivi 4K 75'' Samsung QA75Q6FAAKXXV Smart TV BTC sẽ liên hệ với bạn qua số điện thoại (...... - số dùng để gọi thông báo trúng thưởng) để hướng dẫn thủ tục nhận thưởng trong vòng 15 ngày. | |
-| 4 | Chúc mừng! Bạn đã trúng Máy lọc nước nóng lạnh Kangaroo KG10A17 BTC sẽ liên hệ với bạn qua số điện thoại (...... - số dùng để gọi thông báo trúng thưởng) để hướng dẫn thủ tục nhận thưởng trong vòng 15 ngày. | |
-| 5 | Chúc mừng! Bạn đã trúng Xiaomi Smart Air Purifier 4 máy lọc không khí diện tích 40 m² BTC sẽ liên hệ với bạn qua số điện thoại (...... - số dùng để gọi thông báo trúng thưởng) để hướng dẫn thủ tục nhận thưởng trong vòng 15 ngày. | |
+Các giải thưởng sẽ trao trong Đợt 1 bao gồm:
+<table style="width: 100%; border-collapse: collapse; border: 1px solid black; text-align: center;">
+  <thead>
+    <tr>
+      <th style="border: 1px solid black; padding: 8px;">Cơ cấu giải thưởng</th>
+      <th style="border: 1px solid black; padding: 8px;">Nội dung giải thưởng (chi tiết nội dung và ký mã hiệu từng giải thưởng)</th>
+      <th style="border: 1px solid black; padding: 8px;">Trị giá giải thưởng (VNĐ)</th>
+      <th style="border: 1px solid black; padding: 8px;">Số giải</th>
+      <th style="border: 1px solid black; padding: 8px;">Thành tiền (VNĐ)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">Giải thưởng máy hút bụi</td>
+      <td style="border: 1px solid black; padding: 8px;">Máy hút bụi lau nhà cầm tay Roborock F25 ACE Combo</td>
+      <td style="border: 1px solid black; padding: 8px;">12,800,000</td>
+      <td style="border: 1px solid black; padding: 8px;">1</td>
+      <td style="border: 1px solid black; padding: 8px;">12,800,000</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">Giải thưởng máy giặt/sấy</td>
+      <td style="border: 1px solid black; padding: 8px;">Máy Giặt/Sấy Samsung Inverter 9.5 Kg WD95T4046CE/SV</td>
+      <td style="border: 1px solid black; padding: 8px;">8,590,000</td>
+      <td style="border: 1px solid black; padding: 8px;">1</td>
+      <td style="border: 1px solid black; padding: 8px;">8,590,000</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">Giải thưởng tivi</td>
+      <td style="border: 1px solid black; padding: 8px;">Smart Tivi QLED Samsung AI 4K 65 inch QA65Q8F5</td>
+      <td style="border: 1px solid black; padding: 8px;">15,990,000</td>
+      <td style="border: 1px solid black; padding: 8px;">1</td>
+      <td style="border: 1px solid black; padding: 8px;">15,990,000</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">Giải thưởng máy lọc nước</td>
+      <td style="border: 1px solid black; padding: 8px;">Máy lọc nước nóng lạnh Kangaroo KG10A17</td>
+      <td style="border: 1px solid black; padding: 8px;">5,499,000</td>
+      <td style="border: 1px solid black; padding: 8px;">1</td>
+      <td style="border: 1px solid black; padding: 8px;">5,499,000</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">Giải thưởng máy lọc không khí</td>
+      <td style="border: 1px solid black; padding: 8px;">Xiaomi Smart Air Purifier 4 máy lọc không khí diện tích 40 m²</td>
+      <td style="border: 1px solid black; padding: 8px;">3,390,000</td>
+      <td style="border: 1px solid black; padding: 8px;">3</td>
+      <td style="border: 1px solid black; padding: 8px;">10,170,000</td> 
+    </tr>
+  </tbody>
+</table>
 
+  - Đợt 2: Bao gồm các Mã dự thưởng được hệ thống ghi nhận từ 00h00 ngày 12/01/2026 đến 23h59 ngày 07/02/2026. Đối với Đợt 2, việc bốc thăm xác định trúng thưởng được thực hiện vào 10h00 ngày 08/02/2026 thông qua hệ thống điện tử hỗ trợ quay số ngẫu nhiên tại địa chỉ https://commentpicker.com trước sự chứng kiến của khách hàng và được lập thành biên bản.  Kết quả trúng thưởng được công bố chính thức vào 17h00 cùng ngày (08/02/2026) trên các kênh thông tin chính thức của chương trình.  
+Fanpage Facebook:  
+https://www.facebook.com/topgiaofficial  
+\\
+Các giải thưởng sẽ trao trong Đợt 2 bao gồm:
+<table style="width: 100%; border-collapse: collapse; border: 1px solid black; text-align: center;">
+  <thead>
+    <tr>
+      <th style="border: 1px solid black; padding: 8px;">Cơ cấu giải thưởng</th>
+      <th style="border: 1px solid black; padding: 8px;">Nội dung giải thưởng (chi tiết nội dung và ký mã hiệu từng giải thưởng)</th>
+      <th style="border: 1px solid black; padding: 8px;">Trị giá giải thưởng (VNĐ)</th>
+      <th style="border: 1px solid black; padding: 8px;">Số giải</th>
+      <th style="border: 1px solid black; padding: 8px;">Thành tiền (VNĐ)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">Giải thưởng xe máy điện</td>
+      <td style="border: 1px solid black; padding: 8px;">Xe máy điện Vinfast Feliz 2025</td>
+      <td style="border: 1px solid black; padding: 8px;">25,900,000</td>
+      <td style="border: 1px solid black; padding: 8px;">1</td>
+      <td style="border: 1px solid black; padding: 8px;">25,900,000</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">Giải thưởng máy hút bụi</td>
+      <td style="border: 1px solid black; padding: 8px;">Máy hút bụi lau nhà cầm tay Roborock F25 ACE Combo</td>
+      <td style="border: 1px solid black; padding: 8px;">12,800,000</td>
+      <td style="border: 1px solid black; padding: 8px;">1</td>
+      <td style="border: 1px solid black; padding: 8px;">12,800,000</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">Giải thưởng máy giặt/sấy</td>
+      <td style="border: 1px solid black; padding: 8px;">Máy Giặt/Sấy Samsung Inverter 9.5 Kg WD95T4046CE/SV</td>
+      <td style="border: 1px solid black; padding: 8px;">8,590,000</td>
+      <td style="border: 1px solid black; padding: 8px;">2</td>
+      <td style="border: 1px solid black; padding: 8px;">17,180,000</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">Giải thưởng tivi</td>
+      <td style="border: 1px solid black; padding: 8px;">Smart Tivi QLED Samsung AI 4K 65 inch QA65Q8F5</td>
+      <td style="border: 1px solid black; padding: 8px;">15,990,000</td>
+      <td style="border: 1px solid black; padding: 8px;">2</td>
+      <td style="border: 1px solid black; padding: 8px;">31,980,000</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">Giải thưởng máy lọc nước</td>
+      <td style="border: 1px solid black; padding: 8px;">Máy lọc nước nóng lạnh Kangaroo KG10A17</td>
+      <td style="border: 1px solid black; padding: 8px;">5,499,000</td>
+      <td style="border: 1px solid black; padding: 8px;">1</td>
+      <td style="border: 1px solid black; padding: 8px;">5,499,000</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">Giải thưởng máy lọc không khí</td>
+      <td style="border: 1px solid black; padding: 8px;">Xiaomi Smart Air Purifier 4 máy lọc không khí diện tích 40 m²</td>
+      <td style="border: 1px solid black; padding: 8px;">3,390,000</td>
+      <td style="border: 1px solid black; padding: 8px;">6</td>
+      <td style="border: 1px solid black; padding: 8px;">20,340,000</td>
+    </tr>
+  </tbody>
+</table>
 
-**8.4 Quy định về thời gian, địa điểm và cách thức xác định trúng thưởng:**
-- Bằng chứng trúng thưởng là một trong những hình ảnh trúng thưởng thuộc mục 8.3.
-- Việc xác định kết quả bốc thăm may mắn được thực hiện bằng phần mềm cài thuật toán tự động xác định trúng thưởng ngẫu nhiên trong tổng cơ cấu giải thưởng còn lại của chương trình tính đến thời điểm khách hàng trúng thưởng.
-- Khách hàng có thể xem thông tin công khai danh sách trúng thưởng và số giải thưởng còn lại của chương trình được cập nhật tại thời điểm truy cập khi ấn vào lịch sử tại Landing Page.
+- Dữ liệu đầu vào của hệ thống bốc thăm là danh sách các Mã dự thưởng hợp lệ được hệ thống ghi nhận trong từng đợt, đảm bảo:
+  + Mỗi Mã dự thưởng chỉ xuất hiện 01 (một) lần trong danh sách bốc thăm;
+  + Mã dự thưởng được lựa chọn ngẫu nhiên, khách quan, không có sự can thiệp của con người.
+- Bằng chứng xác định trúng thưởng bao gồm:
+  + Kết quả quay số hiển thị trực tiếp trên hệ thống bốc thăm;
+  + Dữ liệu Mã dự thưởng trúng thưởng được hệ thống lưu trữ;
+  + Thông báo kết quả trúng thưởng được công bố trên các kênh chính thức của chương trình và thông báo trực tiếp đến khách hàng trúng thưởng.
 
 **8.5 Thông báo trúng thưởng:**
-\\
-Sau khi hoàn tất bước 8.4, Khách hàng tham gia chương trình sẽ nhận được thông báo kết quả tại màn hình, sau đó khách hàng nhập thông tin nhận giải ở bước 8.3. Hệ thống sẽ tự động lưu thông tin khách hàng để xác nhận giải.
+- Sau khi có kết quả bốc thăm, Khách hàng tham gia chương trình có thể nhận kết quả trúng thưởng thông qua Website hoặc Fanpage Top Gia.
+- Trong vòng 03 ngày làm việc sau khi rút thăm, Công ty TNHH Thương mại xuất nhập khẩu Fani sẽ gọi điện cho khách hàng trúng giải (từ đầu số 0838022125) theo số điện thoại khách hàng đã cung cấp tại website để thông báo cho người trúng thưởng quy trình nộp hồ sơ trúng thưởng.  
 \\
 **8.6. Thời gian địa điểm, cách thức và thủ tục trao thưởng**
 - Địa điểm, cách thức trao thưởng: 
-  + Mọi trao đổi đối với khách hàng trúng thưởng từ công ty về việc thông báo trúng thưởng cho khách hàng, hướng dẫn cung cấp hồ sơ trúng thưởng, phản hồi hồ sơ trúng thưởng và thủ tục trao thưởng được quy định dưới đây sẽ liên hệ từ: SĐT.....Email....
-  + Trong vòng 15 ngày kể từ ngày khách hàng trúng thưởng, BTC sẽ liên hệ khách hàng theo số điện thoại khách hàng đã đăng ký trên landing page để thông báo trúng thưởng và hướng dẫn thủ tục trao thưởng.
-- Thủ tục trao thưởng: Khách hàng trúng thưởng phải cung cấp các tài liệu và thông tin nhận thưởng qua địa chỉ email:.... trong vòng 03 ngày kể từ ngày BTC thông báo kết quả trúng thưởng qua điện thoại cho khách hàng:
+  + Mọi trao đổi đối với khách hàng trúng thưởng từ công ty về việc thông báo trúng thưởng cho khách hàng, hướng dẫn cung cấp hồ sơ trúng thưởng, phản hồi hồ sơ trúng thưởng và thủ tục trao thưởng được quy định dưới đây sẽ liên hệ từ: SĐT: 0838022125. Email: haocskhtoptophn@gmail.com
+  + Trong vòng 15 ngày kể từ ngày khách hàng trúng thưởng, BTC sẽ liên hệ khách hàng theo số điện thoại khách hàng đã đăng ký trên Website để thông báo trúng thưởng và hướng dẫn thủ tục trao thưởng.
+- Thủ tục trao thưởng: Khách hàng trúng thưởng phải cung cấp các tài liệu và thông tin nhận thưởng qua địa chỉ email: haocskhtoptophn@gmail.com trong vòng 03 ngày kể từ ngày BTC thông báo kết quả trúng thưởng qua điện thoại cho khách hàng:
   + Hình chụp CCCD/Hộ chiếu
-  + Số điện thoại của khách hàng như đã đăng ký tại Landing page.
-- Trong vòng 10 ngày kể từ khi nhận được email hồ sơ trúng thưởng, Ban Tổ chức sẽ kiểm tra tính đầy đủ và trùng khớp của thông tin so với dữ liệu khách hàng đã đăng ký tại Landing Page.
+  + Số điện thoại của khách hàng như đã đăng ký tại Website.
+- Trong vòng 10 ngày kể từ khi nhận được email hồ sơ trúng thưởng, Ban Tổ chức sẽ kiểm tra tính đầy đủ và trùng khớp của thông tin so với dữ liệu khách hàng đã đăng ký tại Website.
   + Nếu thông tin hợp lệ, Ban Tổ chức sẽ liên hệ với khách hàng để thông báo thủ tục nhận giải.
   + Nếu hồ sơ trúng thưởng chưa đầy đủ hoặc không trùng khớp với dữ liệu hệ thống, Ban Tổ chức sẽ thông báo cho khách hàng qua điện thoại và email. Khách hàng cần bổ sung thông tin trong vòng 03 ngày làm việc kể từ khi nhận được thông báo. Sau khi thông tin được bổ sung đầy đủ và hợp lệ, Ban Tổ chức sẽ tiếp tục quy trình kiểm tra và liên hệ trong vòng 10 ngày kể từ thời điểm nhận được email hồ sơ trúng thưởng ban đầu.
-
+Nếu khách hàng không cung cấp đầy đủ hồ sơ hợp lệ trong thời gian quy định, Ban tổ chức sẽ hủy tư cách thắng giải; và tiến hành chọn người thắng giải mới theo phương thức tại mục 8.4.
+- Sau khi kiểm tra thông tin đầy đủ, hợp lệ, đơn vị tổ chức sẽ trao thưởng bằng cách gửi giải thưởng theo địa chỉ mà khách hàng cung cấp chậm nhất là ngày 20/02/2026. Giải thưởng xem như đã trao cho khách hàng sau khi có đơn vị giao phát xác nhận đã giao hàng.  
+\\
 **9. Đầu mối giải đáp thắc mắc cho khách hàng về các vấn đề liên quan đến chương trình khuyến mại (người liên hệ, điện thoại...).**
 \\
-Mọi thắc mắc liên quan đến chương trình khuyến mại này, khách hàng liên hệ theo hotline chương trình 1900 9441 cước phí 1000 đồng/phút để được hướng dẫn, giải đáp.  
-
+Mọi thắc mắc liên quan đến chương trình khuyến mại này, khách hàng liên hệ theo hotline chương trình 1900 9441 cước phí 1000 đồng/phút để được hướng dẫn, giải đáp.    
+\\
 **10. Trách nhiệm công bố thông tin:**
 \\
-Công ty TNHH Thương Mại Xuất Nhập Khẩu Fani thông báo chương trình khuyến mại,  thể lệ chương trình chính thức trên các sàn thương mại điện tử quy định tại mục 4 Thể lệ này.  
-Công ty TNHH Thương Mại Xuất Nhập Khẩu Fani có trách nhiệm thông báo kết quả cho người trúng thưởng. Danh sách khách hàng trúng thưởng được công bố chính thức trên các sàn thương mại điện tử quy định tại mục 4 Thể lệ này.
-
+Công ty TNHH Thương Mại Xuất Nhập Khẩu Fani thông báo chương trình khuyến mại,  thể lệ chương trình chính thức trên các sàn thương mại điện tử quy định tại mục 4 Thể lệ này.    
+Công ty TNHH Thương Mại Xuất Nhập Khẩu Fani có trách nhiệm thông báo kết quả cho người trúng thưởng. Danh sách khách hàng trúng thưởng được công bố chính thức trên các sàn thương mại điện tử quy định tại mục 4 Thể lệ này.  
+\\
 **11. Các quy định khác:**
 \\
-Khách hàng trúng thưởng phải chịu thuế thu nhập không thường xuyên (nếu có) theo quy định của pháp luật và các chi phí đi lại, ăn ở và các chi phí khác liên quan đến việc nhận thưởng và chuyển quyền sở hữu, sử dụng tài sản (nếu có)..  
-Việc tổ chức chương trình khuyến mại phải đảm bảo tính công bằng, minh bạch và khách quan.
-Công ty TNHH Thương Mại Xuất Nhập Khẩu Fani được sử dụng tên và hình ảnh của khách hàng trúng thưởng cho mục đích quảng cáo thương mại nếu được sự chấp thuận của khách hàng trúng thưởng.   
+Khách hàng trúng thưởng phải chịu thuế thu nhập không thường xuyên (nếu có) theo quy định của pháp luật và các chi phí đi lại, ăn ở và các chi phí khác liên quan đến việc nhận thưởng và chuyển quyền sở hữu, sử dụng tài sản (nếu có).    
+Việc tổ chức chương trình khuyến mại phải đảm bảo tính công bằng, minh bạch và khách quan.  
+Công ty TNHH Thương Mại Xuất Nhập Khẩu Fani được sử dụng tên và hình ảnh của khách hàng trúng thưởng cho mục đích quảng cáo thương mại nếu được sự chấp thuận của khách hàng trúng thưởng.  
 Trong trường hợp xảy ra tranh chấp liên quan đến chương trình khuyến mại này, Công ty TNHH Thương Mại Xuất Nhập Khẩu Fani có trách nhiệm trực tiếp giải quyết. Nếu không thỏa thuận được, tranh chấp sẽ được xử lý theo quy định của pháp luật.  
 Đối với những giải thường không có người trúng thưởng, Công ty TNHH Thương Mại Xuất Nhập Khẩu Fani phải có trách nhiệm trích nộp bằng tiền mặt 50% giá trị đã công bố của giải thưởng đó vào Ngân sách nhà nước theo quy định pháp luật.   
-
+\\
+ĐẠI DIỆN CỦA THƯƠNG NHÂN
+<center>PHỤ LỤC 01</center>
+<center>(Kèm theo Công văn Số:    /2025/ĐKKM-TOPGIA)</center>
+<table style="width: 100%; border-collapse: collapse; border: 1px solid black; text-align: center;">
+  <thead>
+    <tr>
+      <th style="border: 1px solid black; padding: 8px;">STT</th>
+      <th style="border: 1px solid black; padding: 8px;">Hàng hóa được khuyến mại</th>
+      <th style="border: 1px solid black; padding: 8px;">Số lượng được khuyến mại (thùng)</th>
+      <th style="border: 1px solid black; padding: 8px;">Số lượng sản phẩm có mã dự thưởng (thùng)</th>
+      <th style="border: 1px solid black; padding: 8px;">Giá trị hàng được khuyến mại (VNĐ/thùng)</th>
+      <th style="border: 1px solid black; padding: 8px;">Tổng giá trị hàng được khuyến mại (VNĐ)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">1</td>
+      <td style="border: 1px solid black; padding: 8px;">Thùng 20 gói giấy Tết</td>
+      <td style="border: 1px solid black; padding: 8px;">150,000</td>
+      <td style="border: 1px solid black; padding: 8px;">150,000</td>
+      <td style="border: 1px solid black; padding: 8px;">199,000</td>
+      <td style="border: 1px solid black; padding: 8px;">29,850,000,000</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 8px;">2</td>
+      <td style="border: 1px solid black; padding: 8px;">Thùng sản phẩm (bao gồm 1 túi 2L nước giặt xả Topgia hương lavender, 1 chai nước tẩy rửa bồn cầu 500ml TopGia hương nho đào, 1 túi 2L nước rửa chén bát TOPGIA hương bưởi, 1 chai Chai Xịt Tẩy Đa Năng TOPGIA)</td>
+      <td style="border: 1px solid black; padding: 8px;">25,000</td>
+      <td style="border: 1px solid black; padding: 8px;">25,000</td>
+      <td style="border: 1px solid black; padding: 8px;">399,000</td>
+      <td style="border: 1px solid black; padding: 8px;">5,975,000,000</td>
+    </tr>
+  </tbody>
+</table>
 `;
 
 export default function RulesPage() {
@@ -257,7 +428,7 @@ export default function RulesPage() {
 
                 <div className="flex-1 w-full max-w-[1200px] px-4 overflow-hidden flex flex-col relative z-10 text-black">
 
-                    <div className="bg-white w-full h-full rounded-3xl md:rounded-3xl shadow-2xl overflow-y-auto p-5 md:p-10 scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-100">
+                    <div className="bg-white w-full h-full rounded-3xl md:rounded-3xl shadow-2xl overflow-y-auto scrollbar-hide p-5 md:p-10 scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-100">
 
                         <article className="shopee-regular prose prose-sm
                             prose-ul:list-disc prose-ul:pl-5

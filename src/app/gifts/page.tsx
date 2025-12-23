@@ -55,7 +55,7 @@ export default function GiftsListPage() {
                     </h1>
                 </div>
 
-                <div className="flex-1 overflow-y-auto pb-[120px] custom-scrollbar scroll-smooth">
+                <div className="flex-1 overflow-y-auto pb-[120px] custom-scrollbar scroll-smooth scrollbar-hide">
                     <div className="w-full max-w-[1200px] mx-auto px-4 md:px-8">
                         <div className="flex flex-wrap justify-center gap-4 md:gap-8">
                             {GIFTS_LIST.map((gift) => (
