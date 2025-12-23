@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import { Home, MoreHorizontal, X } from 'lucide-react';
 import BottomNavbar from "@/src/component/bottomNavbar";
+import Link from "next/link";
 
 const GIFTS_LIST = [
     { id: 1, img: "/assets/Gifts/xemay.png" },
