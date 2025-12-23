@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import { Home, ChevronLeft, ChevronRight, MoreHorizontal, X } from 'lucide-react';
 import BottomNavbar from "@/src/component/bottomNavbar";
+import Link from "next/link";
 
 // MOCK DATA
 const MOCK_WINNERS = Array(15).fill(null).map((_, i) => ({
