@@ -12,7 +12,7 @@ export default function LandingPage() {
     return (
         <div className="min-h-screen flex flex-col font-sans bg-[#8B0000] relative overflow-hidden">
 
-            <div className="hidden lg:flex fixed inset-0 z-0 w-full h-full justify-center items-center overflow-hidden">
+            <div className="hidden hover:flex fixed inset-0 z-0 w-full h-full justify-center items-center overflow-hidden">
                 <Image
                     src="/assets/bg-desktop.webp"
                     alt="Background Desktop"
@@ -30,8 +30,7 @@ export default function LandingPage() {
                 </div>
             </div>
 
-            <div className="lg:hidden relative w-full h-screen overflow-hidden bg-black">
-
+            <div className="hover:hidden relative w-full h-screen overflow-hidden bg-black">
                 <Image
                     src="/assets/bg-mobile.webp"
                     alt="Background Mobile"
