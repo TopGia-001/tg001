@@ -9,13 +9,13 @@ export default function WinnersPage() {
         <div className="h-screen flex flex-col font-sans bg-[#8B0000] relative overflow-hidden">
 
             {/* BACKGROUND THEO DESIGN MỚI */}
-            <div className="hidden md:block xl:hidden fixed inset-0 z-0 w-full h-full">
+            <div className="hidden lg:block xl:hidden fixed inset-0 z-0 w-full h-full">
                 <Image src="/assets/bg-winner.webp" alt="BG Desktop" fill className="object-fill" priority/>
             </div>
-            <div className="hidden md:hidden xl:block fixed inset-0 z-0 w-full h-full">
+            <div className="hidden lg:hidden xl:block fixed inset-0 z-0 w-full h-full">
                 <Image src="/assets/bg-simple.webp" alt="BG Desktop" fill className="object-cover object-top" priority/>
             </div>
-            <div className="md:hidden xl:hidden fixed top-[45px] left-0 right-0 bottom-0 z-0 w-full">
+            <div className="lg:hidden xl:hidden fixed top-[45px] left-0 right-0 bottom-0 z-0 w-full">
                 <Image src="/assets/bg-winner-mobile.webp" alt="BG Mobile" fill className="object-cover object-top"
                        priority/>
             </div>
