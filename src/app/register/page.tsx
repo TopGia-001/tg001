@@ -90,7 +90,7 @@ export default function RegisterPage() {
                 src="/assets/bg-no-prizes-mobile.webp"
                 alt="BG Mobile"
                 fill
-                className="object-contain object-top bg-black"
+                className="object-cover object-top"
                 priority
               />
             </div>
@@ -131,7 +131,7 @@ export default function RegisterPage() {
                     </div>
 
                     {/* CỘT 2: THÔNG TIN CÁ NHÂN */}
-                    <div className="w-[85%] md:w-1/3 flex flex-col items-center">
+                    <div className="w-full max-w-md xl:w-1/3 flex flex-col items-center">
                         <div className="w-full max-sm space-y-1.5 md:space-y-2">
                             <div className="h-auto md:h-[60px] flex items-end justify-center pb-1 md:pb-2">
                                 <p className="shopee-medium text-center text-white leading-[1.2] flex items-end justify-center text-xs font-bold [-webkit-text-stroke:0.5px_#701318] md:text-[16px] md:font-medium md:[-webkit-text-stroke:6px_#701318]" style={{paintOrder: 'stroke fill'}}>
@@ -166,7 +166,7 @@ export default function RegisterPage() {
                     </div>
 
                     {/* CỘT 3: NÚT SUBMIT */}
-                    <div className="w-[85%] md:w-1/3 flex flex-col items-center md:items-start">
+                    <div className="w-full max-w-md xl:w-1/3 flex flex-col items-center md:items-start">
                         <div className="w-full max-w-sm md:max-w-[380px] space-y-3 md:space-y-4">
                             <div className="hidden md:block md:h-[60px] pb-2"></div>
                             <div className={`relative ${errors.terms ? 'animate-shake' : ''}`}>
