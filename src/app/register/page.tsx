@@ -67,12 +67,32 @@ export default function RegisterPage() {
 
     return (
         <div className="min-h-screen flex flex-col font-sans bg-[#8B0000] relative overflow-hidden">
-            {/* BACKGROUND GIỮ NGUYÊN */}
-            <div className="hidden md:block fixed inset-0 z-0 w-full h-full">
-                <Image src="/assets/bg-no-prizes.webp" alt="BG" fill className="object-cover object-top" priority />
+            <div className="hidden xl:block fixed inset-0 z-0 w-full h-full">
+              <Image
+                src="/assets/bg-no-prizes.webp"
+                alt="BG Desktop"
+                fill
+                className="object-cover object-top"
+                priority
+              />
+            </div>
+            <div className="hidden md:block xl:hidden fixed inset-0 z-0 w-full h-full">
+              <Image
+                src="/assets/bg-simple.webp"
+                alt="BG Tablet"
+                fill
+                className="object-cover object-top"
+                priority
+              />
             </div>
             <div className="md:hidden fixed top-[50px] left-0 right-0 bottom-0 z-0 w-full">
-                <Image src="/assets/bg-no-prizes-mobile.webp" alt="BG" fill className="object-cover object-top" priority />
+              <Image
+                src="/assets/bg-no-prizes-mobile.webp"
+                alt="BG Mobile"
+                fill
+                className="object-contain object-top bg-black"
+                priority
+              />
             </div>
 
             {/* HEADER GIỮ NGUYÊN */}
@@ -89,13 +109,12 @@ export default function RegisterPage() {
                 </div>
             </header>
 
-            <main className="relative z-10 flex-1 flex flex-col justify-end w-full max-w-[1400px] mx-auto px-4 md:px-8 pb-32 md:pb-16 pt-4 md:pt-0">
-                <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col md:flex-row items-center md:items-start justify-center w-full gap-3 md:gap-4 lg:gap-12">
-                    {/* CỘT 1: MÃ DỰ THƯỞNG */}
-                    <div className="w-[85%] md:w-1/3 flex flex-col items-center md:items-end">
+            <main className="relative z-10 flex-1 flex flex-col justify-end w-full max-w-[1400px] mx-auto px-4 md:px-6 xl:px-8 pb-32 md:pb-16 pt-4 md:pt-0">
+                <form onSubmit={handleSubmit(onSubmit)} className="flex flex-col xl:flex-row items-center md:items-start justify-center w-full gap-3 md:gap-4 lg:gap-12">
+                    <div className="w-full max-w-md xl:w-1/3 flex flex-col items-center md:items-end">
                         <div className="w-full max-w-sm md:max-w-[350px]">
                             <div className="h-auto md:h-[60px] flex items-end justify-center pb-1 md:pb-2 w-full">
-                                <label className="shopee-bold text-center text-white font-bold uppercase drop-shadow-md text-sm md:text-base block w-full">
+                                <label className="shopee-bold text-center text-white font-bold uppercase drop-shadow-md text-sm xl:text-base block w-full">
                                     Nhập mã dự thưởng
                                 </label>
                             </div>
@@ -164,7 +183,7 @@ export default function RegisterPage() {
                             </div>
 
                             <div className="relative mt-2 md:mt-0 w-full flex justify-center md:block">
-                                <button type="submit" disabled={isLoading} className="relative w-full transition-transform active:scale-95 hover:scale-105 flex justify-center md:justify-start">
+                                <button type="submit" disabled={isLoading} className="relative w-full transition-transform active:scale-95 hover:scale-105 flex justify-center xl:justify-start">
                                     {isLoading ? <Loader2 className="animate-spin text-white w-10 h-10 my-2 md:my-5" /> :
                                         <Image src="/assets/btn-register-real.png" alt="Đăng ký" width={300} height={80} className="w-auto h-12 md:h-20 object-contain drop-shadow-md" priority/>}
                                 </button>
@@ -232,7 +251,7 @@ function FormInput({placeholder, type = "text", register, error}: { placeholder:
                 {...register}
                 type={type}
                 placeholder={placeholder}
-                className={`shopee-bold relative w-full bg-white text-center text-gray-800 font-bold text-sm md:text-base py-2 md:py-2.5 rounded-full border-2 md:border-[3px] shadow-sm focus:outline-none ${error ? 'border-yellow-400 bg-yellow-50' : 'border-[#a12828]'}`}
+                className={`shopee-bold relative w-full bg-white text-center text-gray-800 font-bold text-sm xl:text-base py-2 md:py-2.5 rounded-full border-2 md:border-[3px] shadow-sm focus:outline-none ${error ? 'border-yellow-400 bg-yellow-50' : 'border-[#a12828]'}`}
             />
         </div>
     )
