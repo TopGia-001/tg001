@@ -20,7 +20,7 @@ export default function WinnersPage() {
                 alt="BG Mobile"
                 fill
                 priority
-                className="object-cover object-top"
+                className="object-cover object-top mt-10"
               />
             </div>
 
