@@ -40,8 +40,8 @@ export default function GiftsListPage() {
             </header>
 
             {/* MAIN CONTENT */}
-            <main className="flex-1 z-10 relative">
-                <div className="pt-[10vh] md:pt-[15vh] pb-4 flex justify-center overflow-hidden">
+            <main className="flex-1 flex flex-col min-h-0 z-10 relative">
+                <div className="pt-[10vh] md:pt-[15vh] pb-4 flex justify-center">
                   <h1
                     className="shopee-extrabold text-white text-[24px] md:text-[54px] font-black text-center
                       [-webkit-text-stroke:6px_#701318] md:[-webkit-text-stroke:12px_#701318]"
