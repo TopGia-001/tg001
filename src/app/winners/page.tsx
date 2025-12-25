@@ -23,13 +23,13 @@ export default function WinnersPage() {
                 </div>
             </header>
             
-            <div className="hidden xl:block fixed inset-0 z-0 w-full h-full">
+            <div className="hidden xl:block fixed inset-0 z-0 w-full h-full overflow-hidden">
                 <Image src="/assets/bg-winner.webp" alt="BG Desktop" fill className="object-fill" priority/>
             </div>
-            <div className="hidden md:block xl:hidden fixed inset-0 z-0 w-full h-full">
+            <div className="hidden md:block xl:hidden fixed inset-0 z-0 w-full h-full overflow-hidden">
                 <Image src="/assets/bg-simple.webp" alt="BG Desktop" fill className="object-cover object-top" priority/>
             </div>
-            <div className="md:hidden fixed inset-0 z-0">
+            <div className="md:hidden z-0 relative w-full h-screen overflow-hidden">
               <Image
                 src="/assets/bg-winner-mobile.webp"
                 alt="BG Mobile"
@@ -39,7 +39,7 @@ export default function WinnersPage() {
               />
             </div>
 
-            <main className="relative z-10 flex-1 flex flex-col items-center">
+            <main className="relative z-10 flex-1 flex flex-col items-center overflow-hidden">
 
                 <div className="flex-1 flex flex-col items-center justify-start pt-[12vh] md:pt-[15vh] px-6">
 
