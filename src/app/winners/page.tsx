@@ -14,11 +14,12 @@ export default function WinnersPage() {
             <div className="hidden md:block xl:hidden fixed inset-0 z-0 w-full h-full">
                 <Image src="/assets/bg-simple.webp" alt="BG Desktop" fill className="object-cover object-top" priority/>
             </div>
-            <div className="md:hidden fixed inset-0 z-0 w-screen h-screen">
+            <div className="md:hidden fixed top-[45px] left-0 z-0 w-[100vw] h-[100dvh]">
               <Image
                 src="/assets/bg-winner-mobile.webp"
                 alt="BG Mobile"
                 fill
+                sizes="100vw"
                 priority
                 className="object-cover object-top mt-10"
               />
