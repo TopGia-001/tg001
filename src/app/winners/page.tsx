@@ -20,7 +20,7 @@ export default function WinnersPage() {
                 alt="BG Mobile"
                 fill
                 priority
-                className="object-fill sm:object-cover object-top"
+                className="object-cover object-top"
               />
             </div>
 
