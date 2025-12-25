@@ -54,7 +54,7 @@ export default function GiftsListPage() {
                 <div className="flex-1 overflow-y-auto pb-[140px] px-4">
                   <div className="max-w-[1100px] mx-auto grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-10">
         
-                    {GIFTS_LIST.map(gift => (
+                    {GIFTS_LIST.map((gift) => (
                       <div
                         key={gift.id}
                         className="bg-white rounded-[20px] md:rounded-[40px] shadow-lg p-3 md:p-6 relative"
@@ -67,31 +67,25 @@ export default function GiftsListPage() {
                             className="object-contain"
                             sizes="(max-width: 768px) 45vw, 30vw"
                           />
-        
+                    
                           {/* TEXT OVERLAY */}
                           <div className="absolute bottom-2 left-2 md:bottom-4 md:left-4 z-20 max-w-[90%]">
-                              {/* COUNT */}
-                              <div
-                                className="shopee-extrabold text-black text-[28px] md:text-[56px] leading-none
-                                [-webkit-text-stroke:5px_#701318] md:[-webkit-text-stroke:10px_#701318]"
-                                style={{
-                                  paintOrder: 'stroke fill',
-                                }}
-                              >
-                                {gift.count}
-                              </div>
-        
-                              {/* NAME */}
-                              <div
-                                className="shopee-bold text-black text-[10px] md:text-[14px] leading-tight line-clamp-2
-                                [-webkit-text-stroke:5px_#701318] md:[-webkit-text-stroke:10px_#701318]"
-                                style={{
-                                  paintOrder: 'stroke fill',
-                                }}
-                              >
-                                {gift.name}
-                              </div>
-        
+                            {/* COUNT */}
+                            <div
+                              className="shopee-extrabold text-black text-[28px] md:text-[56px] leading-none
+                              [-webkit-text-stroke:5px_#701318] md:[-webkit-text-stroke:10px_#701318]"
+                              style={{ paintOrder: 'stroke fill' }}
+                            >
+                              {gift.count}
+                            </div>
+                    
+                            {/* NAME */}
+                            <div
+                              className="shopee-bold text-black text-[10px] md:text-[14px] leading-tight line-clamp-2
+                              [-webkit-text-stroke:5px_#701318] md:[-webkit-text-stroke:10px_#701318]"
+                              style={{ paintOrder: 'stroke fill' }}
+                            >
+                              {gift.name}
                             </div>
                           </div>
                         </div>
@@ -106,5 +100,6 @@ export default function GiftsListPage() {
       <div className="fixed bottom-0 left-0 right-0 z-[60]">
         <BottomNavbar hideDecor />
       </div>
+    </div>
   );
 }
