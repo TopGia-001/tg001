@@ -5,12 +5,12 @@ import BottomNavbar from "@/src/component/bottomNavbar";
 import Link from "next/link";
 
 const GIFTS_LIST = [
-    { id: 1, count: "01", name: "Xe máy điện Vinfast Feliz 2025", img: "/assets/gifts-xemay.png" },
-    { id: 2, count: "02", name: "Máy hút bụi lau nhà cầm tay Roborock F25 ACE Combo", img: "/assets/gifts-hutbui.png" },
-    { id: 3, count: "03", name: "Máy Giặt/Sấy Samsung Inverter 9.5 Kg WD95T4046CE/SV", img: "/assets/gifts-maygiat.png" },
-    { id: 4, count: "03", name: "Smart Tivi QLED Samsung AI 4K 65 inch QA65Q8F5", img: "/assets/gifts-tivi.png" },
-    { id: 5, count: "02", name: "Máy lọc nước nóng lạnh Kangaroo KG10A17", img: "/assets/gifts-locnuoc.png" },
-    { id: 6, count: "09", name: "Xiaomi Smart Air Purifier 4 máy lọc không khí diện tích 40 m²", img: "/assets/gifts-lockk.png" },
+    { id: 1, count: "01", name: "Xe máy điện Vinfast Feliz 2025", img: "/assets/Links/gifts-xemay.png" },
+    { id: 2, count: "02", name: "Máy hút bụi lau nhà cầm tay Roborock F25 ACE Combo", img: "/assets/Links/gifts-hutbui.png" },
+    { id: 3, count: "03", name: "Máy Giặt/Sấy Samsung Inverter 9.5 Kg WD95T4046CE/SV", img: "/assets/Links/gifts-maygiat.png" },
+    { id: 4, count: "03", name: "Smart Tivi QLED Samsung AI 4K 65 inch QA65Q8F5", img: "/assets/Links/gifts-tivi.png" },
+    { id: 5, count: "02", name: "Máy lọc nước nóng lạnh Kangaroo KG10A17", img: "/assets/Links/gifts-locnuoc.png" },
+    { id: 6, count: "09", name: "Xiaomi Smart Air Purifier 4 máy lọc không khí diện tích 40 m²", img: "/assets/Links/gifts-lockk.png" },
 ];
 
 export default function GiftsListPage() {
