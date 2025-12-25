@@ -73,7 +73,7 @@ export default function GiftsListPage() {
                             {/* COUNT */}
                             <div
                               className="shopee-extrabold text-black text-[28px] md:text-[56px] leading-none
-                              [-webkit-text-stroke:5px_#701318] md:[-webkit-text-stroke:10px_#701318]"
+                              [-webkit-text-stroke:5px_#FFFFFF] md:[-webkit-text-stroke:10px_#FFFFFF]"
                               style={{ paintOrder: 'stroke fill' }}
                             >
                               {gift.count}
@@ -82,7 +82,7 @@ export default function GiftsListPage() {
                             {/* NAME */}
                             <div
                               className="shopee-bold text-black text-[10px] md:text-[14px] leading-tight line-clamp-2
-                              [-webkit-text-stroke:5px_#701318] md:[-webkit-text-stroke:10px_#701318]"
+                              [-webkit-text-stroke:5px_#FFFFFF] md:[-webkit-text-stroke:10px_#FFFFFF]"
                               style={{ paintOrder: 'stroke fill' }}
                             >
                               {gift.name}
