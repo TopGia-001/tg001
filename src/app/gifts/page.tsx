@@ -5,28 +5,28 @@ import BottomNavbar from "@/src/component/bottomNavbar";
 import Link from "next/link";
 
 const GIFTS_LIST = [
-    { id: 1, count: "01", name: "Xe máy điện Vinfast Feliz 2025", img: "/assets/Links/gifts-xemay.png" },
-    { id: 2, count: "02", name: "Máy hút bụi lau nhà cầm tay Roborock F25 ACE Combo", img: "/assets/Links/gifts-hutbui.png" },
-    { id: 3, count: "03", name: "Máy Giặt/Sấy Samsung Inverter 9.5 Kg WD95T4046CE/SV", img: "/assets/Links/gifts-maygiat.png" },
-    { id: 4, count: "03", name: "Smart Tivi QLED Samsung AI 4K 65 inch QA65Q8F5", img: "/assets/Links/gifts-tivi.png" },
-    { id: 5, count: "02", name: "Máy lọc nước nóng lạnh Kangaroo KG10A17", img: "/assets/Links/gifts-locnuoc.png" },
-    { id: 6, count: "09", name: "Xiaomi Smart Air Purifier 4 máy lọc không khí diện tích 40 m²", img: "/assets/Links/gifts-lockk.png" },
+    { id: 1, count: "01", name: "Xe máy điện Vinfast Feliz 2025", img: "/assets/Links/gifts-xemay.png" },
+    { id: 2, count: "02", name: "Máy hút bụi lau nhà cầm tay Roborock F25 ACE Combo", img: "/assets/Links/gifts-hutbui.png" },
+    { id: 3, count: "03", name: "Máy Giặt/Sấy Samsung Inverter 9.5 Kg WD95T4046CE/SV", img: "/assets/Links/gifts-maygiat.png" },
+    { id: 4, count: "03", name: "Smart Tivi QLED Samsung AI 4K 65 inch QA65Q8F5", img: "/assets/Links/gifts-tivi.png" },
+    { id: 5, count: "02", name: "Máy lọc nước nóng lạnh Kangaroo KG10A17", img: "/assets/Links/gifts-locnuoc.png" },
+    { id: 6, count: "09", name: "Xiaomi Smart Air Purifier 4 máy lọc không khí diện tích 40 m²", img: "/assets/Links/gifts-lockk.png" },
 ];
 
 export default function GiftsListPage() {
-    return (
-        <div className="min-h-[100dvh] flex flex-col font-sans bg-[#8B0000] relative overflow-hidden">
+    return (
+        <div className="min-h-[100dvh] flex flex-col font-sans bg-[#8B0000] relative overflow-hidden">
 
-            {/* BACKGROUND (Fixed) */}
-            <div className="hidden md:block fixed inset-0 z-0 w-full h-full">
-                <Image src="/assets/bg-simple.webp" alt="BG Desktop" fill className="object-cover object-top" priority />
-            </div>
-            <div className="md:hidden fixed inset-0 z-0 w-full h-full">
-                <Image src="/assets/bg-simple-mobile.webp" alt="BG Mobile" fill className="object-cover object-top" priority />
-            </div>
+            {/* BACKGROUND (Fixed) */}
+            <div className="hidden md:block fixed inset-0 z-0 w-full h-full">
+                <Image src="/assets/bg-simple.webp" alt="BG Desktop" fill className="object-cover object-top" priority />
+            </div>
+            <div className="md:hidden fixed inset-0 z-0 w-full h-full">
+                <Image src="/assets/bg-simple-mobile.webp" alt="BG Mobile" fill className="object-cover object-top" priority />
+            </div>
 
-            {/* MOBILE HEADER */}
-            <header className="md:hidden bg-[#b91c1c] text-white px-4 py-2 flex justify-between items-center shadow-lg z-50 relative border-b border-red-900/30 shrink-0 h-[45px]">
+            {/* MOBILE HEADER */}
+            <header className="md:hidden bg-[#b91c1c] text-white px-4 py-2 flex justify-between items-center shadow-lg z-50 relative border-b border-red-900/30 shrink-0 h-[45px]">
                 <div className="flex items-center gap-2">
                     <Link href="/">
                         <Home className="w-5 h-5 text-white" />
@@ -39,8 +39,8 @@ export default function GiftsListPage() {
                 </div>
             </header>
 
-            {/* MAIN CONTENT */}
-            <main className="flex-1 flex flex-col min-h-0 z-10 relative">
+            {/* MAIN CONTENT */}
+            <main className="flex-1 flex flex-col min-h-0 z-10 relative">
                 <div className="pt-[10vh] md:pt-[15vh] pb-4 flex justify-center">
                   <h1
                     className="shopee-extrabold text-white text-[24px] md:text-[54px] font-black text-center
