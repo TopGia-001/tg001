@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function WinnersPage() {
     return (
-        <div className="min-h-[100dvh] flex flex-col font-sans bg-[#C40405] relative overflow-hidden">
+        <div className="min-h-[100dvh] w-full flex flex-col font-sans bg-[#C40405] relative overflow-hidden">
 
             <div className="hidden xl:block fixed inset-0 z-0 w-full h-full">
                 <Image src="/assets/bg-winner.webp" alt="BG Desktop" fill className="object-fill" priority/>
@@ -14,7 +14,7 @@ export default function WinnersPage() {
             <div className="hidden md:block xl:hidden fixed inset-0 z-0 w-full h-full">
                 <Image src="/assets/bg-simple.webp" alt="BG Desktop" fill className="object-cover object-top" priority/>
             </div>
-            <div className="md:hidden fixed inset-0 z-0">
+            <div className="md:hidden fixed inset-0 z-0 w-screen h-screen">
               <Image
                 src="/assets/bg-winner-mobile.webp"
                 alt="BG Mobile"
