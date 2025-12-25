@@ -106,7 +106,5 @@ export default function GiftsListPage() {
       <div className="fixed bottom-0 left-0 right-0 z-[60]">
         <BottomNavbar hideDecor />
       </div>
-
-    </div>
   );
 }
