@@ -6,11 +6,27 @@ import Link from "next/link";
 
 export default function WinnersPage() {
     return (
-        <div className="relative min-h-screen flex flex-col font-sans overflow-hidden">
+        <div className="min-h-[100dvh] flex flex-col font-sans bg-[#C40405] relative overflow-hidden">
+
+            <div className="hidden xl:block fixed inset-0 z-0 w-full h-full">
+                <Image src="/assets/bg-winner.webp" alt="BG Desktop" fill className="object-fill" priority/>
+            </div>
+            <div className="hidden md:block xl:hidden fixed inset-0 z-0 w-full h-full">
+                <Image src="/assets/bg-simple.webp" alt="BG Desktop" fill className="object-cover object-top" priority/>
+            </div>
+            <div className="md:hidden fixed inset-0 z-0">
+              <Image
+                src="/assets/bg-winner-mobile.webp"
+                alt="BG Mobile"
+                fill
+                priority
+                className="object-cover object-top bg-mobile-fill"
+              />
+            </div>
 
             {/* MOBILE HEADER */}
             <header
-                className="md:hidden bg-[#b91c1c] text-white px-4 py-2 flex justify-between items-center shadow-lg z-10 relative border-b border-red-900/30 shrink-0 h-[45px]">
+                className="md:hidden bg-[#b91c1c] text-white px-4 py-2 flex justify-between items-center shadow-lg z-50 relative border-b border-red-900/30 shrink-0 h-[45px]">
                 <div className="flex items-center gap-2">
                     <Link href="/">
                         <Home className="w-5 h-5 text-white" />
@@ -22,24 +38,8 @@ export default function WinnersPage() {
                     <button className="p-1 rounded"><X size={20}/></button>
                 </div>
             </header>
-            
-            <div className="hidden xl:block fixed inset-0 z-0 w-full h-full overflow-hidden">
-                <Image src="/assets/bg-winner.webp" alt="BG Desktop" fill className="object-fill" priority/>
-            </div>
-            <div className="hidden md:block xl:hidden fixed inset-0 z-0 w-full h-full overflow-hidden">
-                <Image src="/assets/bg-simple.webp" alt="BG Desktop" fill className="object-cover object-top" priority/>
-            </div>
-            <div className="md:hidden z-0 relative w-full h-screen overflow-hidden">
-              <Image
-                src="/assets/bg-winner-mobile.webp"
-                alt="BG Mobile"
-                fill
-                priority
-                className="object-cover object-top bg-mobile-fill"
-              />
-            </div>
 
-            <main className="relative z-10 flex-1 flex flex-col items-center overflow-hidden">
+            <main className="relative z-10 flex-1 flex flex-col items-center">
 
                 <div className="flex-1 flex flex-col items-center justify-start pt-[12vh] md:pt-[15vh] px-6">
 
