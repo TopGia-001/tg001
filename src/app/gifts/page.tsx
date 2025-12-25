@@ -15,13 +15,13 @@ const GIFTS_LIST = [
 
 export default function GiftsListPage() {
     return (
-        <div className="min-h-[100dvh] flex flex-col font-sans bg-[#8B0000] relative overflow-hidden">
+        <div className="min-h-[100dvh] flex flex-col font-sans bg-[#8B0000] relative">
 
             {/* BACKGROUND (Fixed) */}
             <div className="hidden md:block fixed inset-0 z-0 w-full h-full">
                 <Image src="/assets/bg-simple.webp" alt="BG Desktop" fill className="object-cover object-top" priority />
             </div>
-            <div className="md:hidden fixed inset-0 z-0 w-full h-full">
+            <div className="md:hidden fixed inset-0 top-[45px] z-0 w-full h-full">
                 <Image src="/assets/bg-simple-mobile.webp" alt="BG Mobile" fill className="object-cover object-top" priority />
             </div>
 
