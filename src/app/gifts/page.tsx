@@ -5,86 +5,117 @@ import BottomNavbar from "@/src/component/bottomNavbar";
 import Link from "next/link";
 
 const GIFTS_LIST = [
-    { id: 1, img: "/assets/Gifts/xemay.png" },
-    { id: 2, img: "/assets/Gifts/hutbui.png" },
-    { id: 3, img: "/assets/Gifts/maygiat.png" },
-    { id: 4, img: "/assets/Gifts/tivi.png" },
-    { id: 5, img: "/assets/Gifts/locnuoc.png" },
-    { id: 6, img: "/assets/Gifts/lockk.png" },
+    { id: 1, count: "01", name: "Xe máy điện Vinfast Feliz 2025", img: "/assets/gifts-xemay.png" },
+    { id: 2, count: "02", name: "Máy hút bụi lau nhà cầm tay Roborock F25 ACE Combo", img: "/assets/gifts-hutbui.png" },
+    { id: 3, count: "03", name: "Máy Giặt/Sấy Samsung Inverter 9.5 Kg WD95T4046CE/SV", img: "/assets/gifts-maygiat.png" },
+    { id: 4, count: "03", name: "Smart Tivi QLED Samsung AI 4K 65 inch QA65Q8F5", img: "/assets/gifts-tivi.png" },
+    { id: 5, count: "02", name: "Máy lọc nước nóng lạnh Kangaroo KG10A17", img: "/assets/gifts-locnuoc.png" },
+    { id: 6, count: "09", name: "Xiaomi Smart Air Purifier 4 máy lọc không khí diện tích 40 m²", img: "/assets/gifts-lockk.png" },
 ];
 
 export default function GiftsListPage() {
-    return (
-        <div className="h-screen flex flex-col font-sans bg-[#8B0000] relative overflow-hidden">
+    return (
+        <div className="min-h-[100dvh] flex flex-col font-sans bg-[#8B0000] relative overflow-hidden">
 
-            {/* BACKGROUND (Fixed) */}
-            <div className="hidden md:block fixed inset-0 z-0 w-full h-full">
-                <Image src="/assets/bg-simple.webp" alt="BG Desktop" fill className="object-cover object-top" priority />
-            </div>
-            <div className="md:hidden fixed top-[45px] left-0 right-0 bottom-0 z-0 w-full">
-                <Image src="/assets/bg-simple-mobile.webp" alt="BG Mobile" fill className="object-cover object-top" priority />
-            </div>
+            {/* BACKGROUND (Fixed) */}
+            <div className="hidden md:block fixed inset-0 z-0 w-full h-full">
+                <Image src="/assets/bg-simple.webp" alt="BG Desktop" fill className="object-cover object-top" priority />
+            </div>
+            <div className="md:hidden fixed inset-0 z-0 w-full h-full">
+                <Image src="/assets/bg-simple-mobile.webp" alt="BG Mobile" fill className="object-cover object-top" priority />
+            </div>
 
-            {/* MOBILE HEADER */}
-            <header className="md:hidden bg-[#b91c1c] text-white px-4 py-2 flex justify-between items-center shadow-lg z-50 relative border-b border-red-900/30 shrink-0 h-[45px]">
-                <div className="flex items-center gap-2">
-                    <Link href="/">
-                      <Home className="w-5 h-5 text-white" />
-                    </Link>
-                    <span className="font-bold text-[10px] uppercase bg-black/20 px-2 py-1 rounded">DANH SÁCH QUÀ TẶNG</span>
-                </div>
-                <div className="flex items-center gap-2">
-                    <button className="p-1 rounded"><MoreHorizontal size={20}/></button>
-                    <button className="p-1 rounded"><X size={20}/></button>
-                </div>
-            </header>
+            {/* MOBILE HEADER */}
+            <header className="md:hidden bg-[#b91c1c] text-white px-4 py-2 flex justify-between items-center shadow-lg z-50 relative border-b border-red-900/30 shrink-0 h-[45px]">
+                <div className="flex items-center gap-2">
+                    <Link href="/">
+                        <Home className="w-5 h-5 text-white" />
+                    </Link>
+                    <span className="font-bold text-[10px] uppercase bg-black/20 px-2 py-1 rounded">DANH SÁCH QUÀ TẶNG</span>
+                </div>
+                <div className="flex items-center gap-2">
+                    <button className="p-1 rounded"><MoreHorizontal size={20}/></button>
+                    <button className="p-1 rounded"><X size={20}/></button>
+                </div>
+            </header>
 
-            {/* MAIN CONTENT */}
-            <main className="flex-1 flex flex-col min-h-0 z-10 relative">
+            {/* MAIN CONTENT */}
+            <main className="flex-1 flex flex-col min-h-0 z-10 relative">
 
-                {/* FIXED TITLE */}
-                <div className="shrink-0 flex justify-center pt-[8vh] pb-6 md:pt-[15vh] md:pb-10 px-4">
-                    <h1
-                        className="shopee-extrabold text-center text-white uppercase font-black leading-tight tracking-wide
-                            text-[22px] [-webkit-text-stroke:6px_#701318]
-                            md:text-[48px] md:[-webkit-text-stroke:12px_#701318]
-                            drop-shadow-[0_4px_6px_rgba(0,0,0,0.4)]"
-                        style={{paintOrder: 'stroke fill'}}
-                    >
-                        DANH SÁCH QUÀ TẶNG
-                    </h1>
-                </div>
+                {/* TITLE SECTION */}
+                <div className="shrink-0 flex justify-center pt-[10vh] pb-4 md:pt-[15vh] md:pb-10 px-4">
+                    <h1
+                        className="shopee-extrabold text-center text-white uppercase font-black leading-tight tracking-wide
+                            text-[24px] [-webkit-text-stroke:6px_#701318]
+                            md:text-[54px] md:[-webkit-text-stroke:12px_#701318]
+                            drop-shadow-[0_4px_6px_rgba(0,0,0,0.4)]"
+                        style={{paintOrder: 'stroke fill'}}
+                    >
+                        DANH SÁCH QUÀ TẶNG
+                    </h1>
+                </div>
 
-                <div className="flex-1 overflow-y-auto pb-[120px] custom-scrollbar scroll-smooth scrollbar-hide">
-                    <div className="w-full max-w-[1200px] mx-auto px-4 md:px-8">
-                        <div className="flex flex-wrap justify-center gap-4 md:gap-8">
-                            {GIFTS_LIST.map((gift) => (
-                                <div
-                                    key={gift.id}
-                                    className="bg-white rounded-2xl md:rounded-[40px] shadow-xl transition-transform hover:scale-105
-                       w-[calc(50%-8px)] md:w-[calc(31%-22px)]
-                       p-3 md:p-6 flex flex-col items-center justify-center"
-                                >
-                                    <div className="relative w-full aspect-square">
-                                        <Image
-                                            src={gift.img}
-                                            alt="Quà tặng Top Gia"
-                                            fill
-                                            className="object-contain"
-                                            sizes="(max-width: 768px) 40vw, 25vw"
-                                        />
-                                    </div>
-                                </div>
-                            ))}
-                        </div>
-                    </div>
-                </div>
-            </main>
+                {/* SCROLLABLE GRID */}
+                <div className="flex-1 overflow-y-auto pb-[140px] px-4 md:px-0 custom-scrollbar scrollbar-hide">
+                    <div className="w-full max-w-[1100px] mx-auto">
+                        <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-10">
+                            {GIFTS_LIST.map((gift) => (
+                                <div
+                                    key={gift.id}
+                                    className="bg-white rounded-[20px] md:rounded-[40px] shadow-[0_8px_20px_rgba(0,0,0,0.2)] p-3 md:p-6 flex flex-col relative"
+                                >
+                                    {/* Gift Image Area */}
+                                    <div className="relative w-full aspect-[4/3] md:aspect-square mb-2">
+                                        <Image
+                                            src={gift.img}
+                                            alt={gift.name}
+                                            fill
+                                            className="object-contain"
+                                            sizes="(max-width: 768px) 45vw, 30vw"
+                                        />
+                                        
+                                        {/* Number Overlay (Stroke trắng, chữ đen) */}
+                                        <div className="absolute -bottom-2 -left-1 md:-bottom-4 md:-left-2 z-20">
+                                            <span 
+                                                className="shopee-extrabold text-[40px] md:text-[80px] leading-none text-black font-black"
+                                                style={{
+                                                    WebkitTextStroke: '6px white', // Độ dày viền trắng
+                                                    paintOrder: 'stroke fill'
+                                                }}
+                                            >
+                                                {gift.count}
+                                            </span>
+                                        </div>
+                                    </div>
 
-            <div className="fixed bottom-0 left-0 right-0 z-[60]">
-                <BottomNavbar hideDecor={true}/>
-            </div>
+                                    {/* Gift Name */}
+                                    <div className="mt-2 md:mt-4">
+                                        <p className="text-black font-bold text-[11px] md:text-[18px] leading-[1.2] text-left line-clamp-2 md:line-clamp-none">
+                                            {gift.name}
+                                        </p>
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                </div>
+            </main>
 
-        </div>
-    );
+            {/* NAVIGATION BAR */}
+            <div className="fixed bottom-0 left-0 right-0 z-[60]">
+                <BottomNavbar hideDecor={true}/>
+            </div>
+
+            <style jsx global>{`
+                .scrollbar-hide::-webkit-scrollbar {
+                    display: none;
+                }
+                .scrollbar-hide {
+                    -ms-overflow-style: none;
+                    scrollbar-width: none;
+                }
+            `}</style>
+
+        </div>
+    );
 }
