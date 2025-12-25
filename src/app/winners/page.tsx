@@ -21,7 +21,7 @@ export default function WinnersPage() {
                 fill
                 sizes="100vw"
                 priority
-                className="object-cover object-top scale-[1.5]"
+                className="object-cover object-top scale-[1.25]"
               />
             </div>
 
