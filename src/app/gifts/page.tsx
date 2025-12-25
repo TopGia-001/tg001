@@ -41,7 +41,7 @@ export default function GiftsListPage() {
 
             {/* MAIN CONTENT */}
             <main className="flex-1 z-10 relative">
-                <div className="pt-[10vh] md:pt-[15vh] pb-4 flex justify-center">
+                <div className="pt-[10vh] md:pt-[15vh] pb-4 flex justify-center overflow-hidden">
                   <h1
                     className="shopee-extrabold text-white text-[24px] md:text-[54px] font-black text-center
                       [-webkit-text-stroke:6px_#701318] md:[-webkit-text-stroke:12px_#701318]"
@@ -70,13 +70,11 @@ export default function GiftsListPage() {
         
                           {/* TEXT OVERLAY */}
                           <div className="absolute bottom-2 left-2 md:bottom-4 md:left-4 z-20 max-w-[90%]">
-                            <div className="bg-white/60 backdrop-blur-sm rounded-lg px-2 py-1">
-        
                               {/* COUNT */}
                               <div
-                                className="shopee-extrabold text-black text-[28px] md:text-[56px] leading-none"
+                                className="shopee-extrabold text-black text-[28px] md:text-[56px] leading-none
+                                [-webkit-text-stroke:5px_#701318] md:[-webkit-text-stroke:10px_#701318]"
                                 style={{
-                                  WebkitTextStroke: '4px white',
                                   paintOrder: 'stroke fill',
                                 }}
                               >
@@ -85,9 +83,9 @@ export default function GiftsListPage() {
         
                               {/* NAME */}
                               <div
-                                className="shopee-bold text-black text-[10px] md:text-[14px] leading-tight line-clamp-2"
+                                className="shopee-bold text-black text-[10px] md:text-[14px] leading-tight line-clamp-2
+                                [-webkit-text-stroke:5px_#701318] md:[-webkit-text-stroke:10px_#701318]"
                                 style={{
-                                  WebkitTextStroke: '1.5px white',
                                   paintOrder: 'stroke fill',
                                 }}
                               >
