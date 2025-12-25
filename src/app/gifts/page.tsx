@@ -27,17 +27,17 @@ export default function GiftsListPage() {
 
             {/* MOBILE HEADER */}
             <header className="md:hidden bg-[#b91c1c] text-white px-4 py-2 flex justify-between items-center shadow-lg z-50 relative border-b border-red-900/30 shrink-0 h-[45px]">
-                <div className="flex items-center gap-2">
-                    <Link href="/">
-                        <Home className="w-5 h-5 text-white" />
-                    </Link>
-                    <span className="font-bold text-[10px] uppercase bg-black/20 px-2 py-1 rounded">DANH SÁCH QUÀ TẶNG</span>
-                </div>
-                <div className="flex items-center gap-2">
-                    <button className="p-1 rounded"><MoreHorizontal size={20}/></button>
-                    <button className="p-1 rounded"><X size={20}/></button>
-                </div>
-            </header>
+                <div className="flex items-center gap-2">
+                    <Link href="/">
+                        <Home className="w-5 h-5 text-white" />
+                    </Link>
+                    <span className="font-bold text-[10px] uppercase bg-black/20 px-2 py-1 rounded tracking-tighter">SẢN PHẨM KHUYẾN MẠI</span>
+                </div>
+                <div className="flex items-center gap-2">
+                    <button className="p-1 rounded"><MoreHorizontal size={20}/></button>
+                    <button className="p-1 rounded"><X size={20}/></button>
+                </div>
+            </header>
 
             {/* MAIN CONTENT */}
             <main className="flex-1 flex flex-col min-h-0 z-10 relative">
@@ -73,7 +73,7 @@ export default function GiftsListPage() {
                             {/* COUNT */}
                             <div
                               className="shopee-extrabold text-black text-[28px] md:text-[56px] leading-none
-                              [-webkit-text-stroke:5px_#FFFFFF] md:[-webkit-text-stroke:10px_#FFFFFF]"
+                              [-webkit-text-stroke:5px_#FFFFFF] md:[-webkit-text-stroke:8px_#FFFFFF]"
                               style={{ paintOrder: 'stroke fill' }}
                             >
                               {gift.count}
@@ -82,7 +82,7 @@ export default function GiftsListPage() {
                             {/* NAME */}
                             <div
                               className="shopee-bold text-black text-[10px] md:text-[14px] leading-tight line-clamp-2
-                              [-webkit-text-stroke:5px_#FFFFFF] md:[-webkit-text-stroke:10px_#FFFFFF]"
+                              [-webkit-text-stroke:5px_#FFFFFF] md:[-webkit-text-stroke:8px_#FFFFFF]"
                               style={{ paintOrder: 'stroke fill' }}
                             >
                               {gift.name}
