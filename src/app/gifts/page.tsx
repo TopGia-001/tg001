@@ -40,72 +40,75 @@ export default function GiftsListPage() {
             </header>
 
             {/* MAIN CONTENT */}
-            <main className="flex-1 flex flex-col min-h-0 z-10 relative">
+            <main className="flex-1 z-10 relative">
+        <div className="pt-[10vh] md:pt-[15vh] pb-4 flex justify-center">
+          <h1
+            className="shopee-extrabold text-white text-[24px] md:text-[54px] font-black text-center
+              [-webkit-text-stroke:6px_#701318] md:[-webkit-text-stroke:12px_#701318]"
+            style={{ paintOrder: 'stroke fill' }}
+          >
+            DANH SÁCH QUÀ TẶNG
+          </h1>
+        </div>
 
-                {/* TITLE SECTION */}
-                <div className="shrink-0 flex justify-center pt-[10vh] pb-4 md:pt-[15vh] md:pb-10 px-4">
-                    <h1
-                        className="shopee-extrabold text-center text-white uppercase font-black leading-tight tracking-wide
-                            text-[24px] [-webkit-text-stroke:6px_#701318]
-                            md:text-[54px] md:[-webkit-text-stroke:12px_#701318]
-                            drop-shadow-[0_4px_6px_rgba(0,0,0,0.4)]"
-                        style={{paintOrder: 'stroke fill'}}
-                    >
-                        DANH SÁCH QUÀ TẶNG
-                    </h1>
-                </div>
+        <div className="flex-1 overflow-y-auto pb-[140px] px-4">
+          <div className="max-w-[1100px] mx-auto grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-10">
 
-                {/* SCROLLABLE GRID */}
-                <div className="flex-1 overflow-y-auto pb-[140px] px-4 md:px-0 custom-scrollbar scrollbar-hide">
-                    <div className="w-full max-w-[1100px] mx-auto">
-                        <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-10">
-                            {GIFTS_LIST.map((gift) => (
-                                <div
-                                    key={gift.id}
-                                    className="bg-white rounded-[20px] md:rounded-[40px] shadow-[0_8px_20px_rgba(0,0,0,0.2)] p-3 md:p-6 flex flex-col relative"
-                                >
-                                    {/* Gift Image Area */}
-                                    <div className="relative w-full aspect-[4/3] md:aspect-square mb-2">
-                                        <Image
-                                            src={gift.img}
-                                            alt={gift.name}
-                                            fill
-                                            className="object-contain"
-                                            sizes="(max-width: 768px) 45vw, 30vw"
-                                        />
-                                        
-                                        {/* Number Overlay (Stroke trắng, chữ đen) */}
-                                        <div className="absolute -bottom-2 -left-1 md:-bottom-4 md:-left-2 z-20">
-                                            <span 
-                                                className="shopee-extrabold text-[40px] md:text-[80px] leading-none text-black font-black"
-                                                style={{
-                                                    WebkitTextStroke: '6px white', // Độ dày viền trắng
-                                                    paintOrder: 'stroke fill'
-                                                }}
-                                            >
-                                                {gift.count}
-                                            </span>
-                                        </div>
-                                    </div>
+            {GIFTS_LIST.map(gift => (
+              <div
+                key={gift.id}
+                className="bg-white rounded-[20px] md:rounded-[40px] shadow-lg p-3 md:p-6 relative"
+              >
+                <div className="relative w-full aspect-[4/3] md:aspect-square">
+                  <Image
+                    src={gift.img}
+                    alt={gift.name}
+                    fill
+                    className="object-contain"
+                    sizes="(max-width: 768px) 45vw, 30vw"
+                  />
 
-                                    {/* Gift Name */}
-                                    <div className="mt-2 md:mt-4">
-                                        <p className="text-black font-bold text-[11px] md:text-[18px] leading-[1.2] text-left line-clamp-2 md:line-clamp-none">
-                                            {gift.name}
-                                        </p>
-                                    </div>
-                                </div>
-                            ))}
-                        </div>
-                    </div>
-                </div>
-            </main>
+                  {/* TEXT OVERLAY */}
+                  <div className="absolute bottom-2 left-2 md:bottom-4 md:left-4 z-20 max-w-[90%]">
+                    <div className="bg-white/60 backdrop-blur-sm rounded-lg px-2 py-1">
 
-            {/* NAVIGATION BAR */}
-            <div className="fixed bottom-0 left-0 right-0 z-[60]">
-                <BottomNavbar hideDecor={true}/>
-            </div>
+                      {/* COUNT */}
+                      <div
+                        className="shopee-extrabold text-black text-[28px] md:text-[56px] leading-none"
+                        style={{
+                          WebkitTextStroke: '4px white',
+                          paintOrder: 'stroke fill',
+                        }}
+                      >
+                        {gift.count}
+                      </div>
 
-        </div>
-    );
+                      {/* NAME */}
+                      <div
+                        className="shopee-bold text-black text-[10px] md:text-[14px] leading-tight line-clamp-2"
+                        style={{
+                          WebkitTextStroke: '1.5px white',
+                          paintOrder: 'stroke fill',
+                        }}
+                      >
+                        {gift.name}
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ))}
+
+          </div>
+        </div>
+      </main>
+
+      {/* NAV */}
+      <div className="fixed bottom-0 left-0 right-0 z-[60]">
+        <BottomNavbar hideDecor />
+      </div>
+
+    </div>
+  );
 }
