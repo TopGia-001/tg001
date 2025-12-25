@@ -1,5 +1,3 @@
-"use client"
-
 import React from 'react';
 import Image from 'next/image';
 import { Home, MoreHorizontal, X } from 'lucide-react';
@@ -107,16 +105,6 @@ export default function GiftsListPage() {
             <div className="fixed bottom-0 left-0 right-0 z-[60]">
                 <BottomNavbar hideDecor={true}/>
             </div>
-
-            <style jsx global>{`
-                .scrollbar-hide::-webkit-scrollbar {
-                    display: none;
-                }
-                .scrollbar-hide {
-                    -ms-overflow-style: none;
-                    scrollbar-width: none;
-                }
-            `}</style>
 
         </div>
     );
