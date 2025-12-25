@@ -5,7 +5,7 @@ import BottomNavbar from "@/src/component/bottomNavbar";
 import Link from "next/link";
 
 const PROMOTIONAL_PRODUCTS = [
-    { id: 1, name: "THÙNG GIẤY TẾT 20 GÓI", img: "/assets/Links/giay-tet.png" },
+    { id: 1, name: "THÙNG GIẤY TẾT 20 GÓI KHĂN GIẤY CAO CẤP ĐA SẮC TOP GIA", img: "/assets/Links/giay-tet.png" },
     { id: 2, name: "COMBO CHĂM SÓC GIA ĐÌNH", img: "/assets/combo-csgd.webp" },
 ];
 
