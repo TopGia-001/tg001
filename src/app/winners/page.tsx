@@ -15,7 +15,7 @@ export default function WinnersPage() {
                 <Image src="/assets/bg-simple.webp" alt="BG Desktop" fill className="object-cover object-top" priority/>
             </div>
             <div className="md:hidden fixed top-[45px] left-0 right-0 bottom-0 z-0 w-full">
-                <Image src="/assets/bg-winner-mobile.webp" alt="BG Mobile" fill className="object-cover object-top"
+                <Image src="/assets/bg-winner-mobile.webp" alt="BG Mobile" fill className="object-fill"
                        priority/>
             </div>
 
