@@ -41,68 +41,68 @@ export default function GiftsListPage() {
 
             {/* MAIN CONTENT */}
             <main className="flex-1 z-10 relative">
-        <div className="pt-[10vh] md:pt-[15vh] pb-4 flex justify-center">
-          <h1
-            className="shopee-extrabold text-white text-[24px] md:text-[54px] font-black text-center
-              [-webkit-text-stroke:6px_#701318] md:[-webkit-text-stroke:12px_#701318]"
-            style={{ paintOrder: 'stroke fill' }}
-          >
-            DANH SÁCH QUÀ TẶNG
-          </h1>
-        </div>
-
-        <div className="flex-1 overflow-y-auto pb-[140px] px-4">
-          <div className="max-w-[1100px] mx-auto grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-10">
-
-            {GIFTS_LIST.map(gift => (
-              <div
-                key={gift.id}
-                className="bg-white rounded-[20px] md:rounded-[40px] shadow-lg p-3 md:p-6 relative"
-              >
-                <div className="relative w-full aspect-[4/3] md:aspect-square">
-                  <Image
-                    src={gift.img}
-                    alt={gift.name}
-                    fill
-                    className="object-contain"
-                    sizes="(max-width: 768px) 45vw, 30vw"
-                  />
-
-                  {/* TEXT OVERLAY */}
-                  <div className="absolute bottom-2 left-2 md:bottom-4 md:left-4 z-20 max-w-[90%]">
-                    <div className="bg-white/60 backdrop-blur-sm rounded-lg px-2 py-1">
-
-                      {/* COUNT */}
+                <div className="pt-[10vh] md:pt-[15vh] pb-4 flex justify-center">
+                  <h1
+                    className="shopee-extrabold text-white text-[24px] md:text-[54px] font-black text-center
+                      [-webkit-text-stroke:6px_#701318] md:[-webkit-text-stroke:12px_#701318]"
+                    style={{ paintOrder: 'stroke fill' }}
+                  >
+                    DANH SÁCH QUÀ TẶNG
+                  </h1>
+                </div>
+        
+                <div className="flex-1 overflow-y-auto pb-[140px] px-4">
+                  <div className="max-w-[1100px] mx-auto grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-10">
+        
+                    {GIFTS_LIST.map(gift => (
                       <div
-                        className="shopee-extrabold text-black text-[28px] md:text-[56px] leading-none"
-                        style={{
-                          WebkitTextStroke: '4px white',
-                          paintOrder: 'stroke fill',
-                        }}
+                        key={gift.id}
+                        className="bg-white rounded-[20px] md:rounded-[40px] shadow-lg p-3 md:p-6 relative"
                       >
-                        {gift.count}
+                        <div className="relative w-full aspect-[4/3] md:aspect-square">
+                          <Image
+                            src={gift.img}
+                            alt={gift.name}
+                            fill
+                            className="object-contain"
+                            sizes="(max-width: 768px) 45vw, 30vw"
+                          />
+        
+                          {/* TEXT OVERLAY */}
+                          <div className="absolute bottom-2 left-2 md:bottom-4 md:left-4 z-20 max-w-[90%]">
+                            <div className="bg-white/60 backdrop-blur-sm rounded-lg px-2 py-1">
+        
+                              {/* COUNT */}
+                              <div
+                                className="shopee-extrabold text-black text-[28px] md:text-[56px] leading-none"
+                                style={{
+                                  WebkitTextStroke: '4px white',
+                                  paintOrder: 'stroke fill',
+                                }}
+                              >
+                                {gift.count}
+                              </div>
+        
+                              {/* NAME */}
+                              <div
+                                className="shopee-bold text-black text-[10px] md:text-[14px] leading-tight line-clamp-2"
+                                style={{
+                                  WebkitTextStroke: '1.5px white',
+                                  paintOrder: 'stroke fill',
+                                }}
+                              >
+                                {gift.name}
+                              </div>
+        
+                            </div>
+                          </div>
+                        </div>
                       </div>
-
-                      {/* NAME */}
-                      <div
-                        className="shopee-bold text-black text-[10px] md:text-[14px] leading-tight line-clamp-2"
-                        style={{
-                          WebkitTextStroke: '1.5px white',
-                          paintOrder: 'stroke fill',
-                        }}
-                      >
-                        {gift.name}
-                      </div>
-
-                    </div>
+                    ))}
+        
                   </div>
                 </div>
-              </div>
-            ))}
-
-          </div>
-        </div>
-      </main>
+              </main>
 
       {/* NAV */}
       <div className="fixed bottom-0 left-0 right-0 z-[60]">
