@@ -20,6 +20,11 @@
   font-family: 'ShopeeDisplay Regular', sans-serif;
 }
 
+@media (max-width: 399px) {
+  .bg-mobile-fill {
+    object-fit: fill !important;
+  }
+}
 
 @font-face {
   font-family: 'ShopeeDisplay Bold';
