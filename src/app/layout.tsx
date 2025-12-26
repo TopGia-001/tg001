@@ -15,6 +15,12 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "TopGia",
   description: "TopGia",
+
+  icons: {
+    icon: "/favicon-topgia.jpeg",
+    shortcut: "/favicon-topgia.jpeg",
+    apple: "/favicon-topgia.jpeg",
+  },
 };
 
 export default function RootLayout({
